@@ -5,7 +5,7 @@ Roller omtalt her:
 * Tjenesteutvikler (Kjell-Åge Tingstad)
 * Produkteier (John Petter Skjetne)
 * Fagansvarlig (Monica Ramberg)
-* Utviklingsteam (Eilev Hagen med flere)
+* Utviklingsteam (Eilev Hagen, Kasper Røstvold)
 * NHN kundesenter
 * Superbruker
 * Brukere
@@ -26,8 +26,8 @@ Utføres av fagansvarlige.
 * Aktiver database på https://eforsk.nhn.no/ administrasjon
 * Hvis gjenstående ledige databaser har nådd 3 eller mindre, kontakt tjenesteutvikler og meld fra om dette slik at bestilles opp flere fra NHN
 * Gi tilgang til superbruker i FALK, superbruker tar seg av videre tilganger for databasen. **Vær nøye på å gi riktige tilganger, KRITISK punkt.** 
-  * Databaseansvarlig: https://falk.eforsk.nhn.no/u/a/rights/4 finn superbrukeren, trykk på den, og "gi ny tilgang" på **riktig** database
-  * Tilgangstildeler: https://falk.eforsk.nhn.no/u/a/authorizers/4 søk opp superbruker, "gjør som tilgangstildeler" på **riktig** database
+  * Databaseansvarlig: https://falk.eforsk.nhn.no/u/app-admin/4 finn superbrukeren under Brukertilganger, trykk på den, administrer tilgang og "gi tilgang Databaseansvarlig" på **riktig** database
+  * Tilgangstildeler: https://falk.eforsk.nhn.no/u/app-admin/4 søk opp superbruker, "gjør som tilgangstildeler" på **riktig** database
 * Informer superbruker om at databasen er klar
 
 ## Ny demodatabase i eFORSK (mrsweb)
