@@ -37,8 +37,8 @@ Utføres av fagansvarlige.
   *  Lagre database. Dersom ePROM er aktivert, velg 'Test ePROM'. Begge skal ha status 'Tilkoblet', da er det kontakt mellom eFORSK og ePROM.
 * Hvis gjenstående ledige databaser har nådd 3 eller mindre, kontakt tjenesteutvikler og meld fra om dette slik at bestilles opp flere fra NHN
 * Gi tilgang til superbruker i FALK, superbruker tar seg av videre tilganger for databasen. **Vær nøye på å gi riktige tilganger, KRITISK punkt.** 
-  * Superbruker: https://falk.eforsk.nhn.no/u/app-admin/4 finn superbrukeren under Brukertilganger, trykk på den, administrer tilgang og tildel rollen Superbruker på **riktig** database
-  * Tilgangstildeler: https://falk.eforsk.nhn.no/u/app-admin/4 søk opp superbruker, sett som tilgangstildeler på **riktig** database
+  * Superbruker: Finn superbrukeren under Søknader, trykk på den, administrer tilgang og tildel rollen Superbruker på **riktig** database
+  * Tilgangstildeler: Under Tilgangstildeler, søk opp superbruker, sett som tilgangstildeler på **riktig** database
 * Informer superbruker om at databasen er klar
 
 ## Ny demodatabase i eFORSK (mrsweb)
