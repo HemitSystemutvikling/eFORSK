@@ -31,7 +31,7 @@ Utføres av fagansvarlige.
 
 ### Når dette er gjort, gå videre med selve opprettelsen i eFORSK
   
-* Aktiver database på https://eforsk.nhn.no/ administrasjon
+* Aktiver database på https://eforsk.nhn.no/ (Logg inn med rolle Administrator på enhet Administrasjon), gå til Databaser
   *  Fyll inn alle felter og kryss av for bestilte funksjoner. 
   *  Dersom ePROM skal brukes, legg inn API-nøkler for hhv PROD og QA/TEST. 
   *  Lagre database. Dersom ePROM er aktivert, velg 'Test ePROM'. Begge skal ha status 'Tilkoblet', da er det kontakt mellom eFORSK og ePROM.
@@ -41,7 +41,7 @@ Utføres av fagansvarlige.
 
 **Vær nøye på å gi riktige tilganger, KRITISK punkt.** 
 
-Superbruker for prosjektet må eksistere i FALK (hvis ikke må vedkommende bes om å søke om tilgang på https://falk.eforsk.nhn.no/u/apply?app=eFORSK). Det er ikke mulig å tildele roller til brukere som aldri har vært innlogget i FALK. 
+Superbruker for prosjektet må eksistere i FALK (hvis ikke må vedkommende bes om å søke om tilgang på https://falk.eforsk.nhn.no/u/apply?app=eFORSK. Det er ikke mulig å tildele roller til brukere som aldri har vært innlogget i FALK. 
 
 Gi tilgang til superbruker i FALK, så vil superbruker ta seg av videre tilgangstildeling for databasen. Superbruker trenger to ulike roller til den nye databasen: 
   * Superbruker: Finn superbrukeren under Søknader, trykk på den, administrer tilgang og tildel rollen Superbruker på **riktig** database
@@ -65,7 +65,7 @@ Utføres av utviklingsteam (?)
 
 ## Nytt ePROM skjema
 
-* Digitalt skjema: superbruker melder fra til fagansvarlig når dem ønsker et digitalt skjema godkjent
+* Digitalt skjema: superbruker kan selv godkjenne ePROM-skjema for sin database. Administrator kan også godkjenne skjema (for alle databaser). Dette gjelder digitale skjema.
 * **Papirskjema**: en prosjektleder i Hemit systemutvikling må involveres med testere før papirskjema kan bestilles, dette er en prosess som tar uker - så det lønner seg å komme i gang tidlig.
 
 ## Henvendelser fra brukere
@@ -75,9 +75,7 @@ Skjer i følgende rekkefølge:
 Brukere (og potensielle brukere) av eFORSK skal via sin forskningsavdeling få en superbruker som dem henvender seg til. For de fleste vil dette kunne være eforsk@stolav.no. 
 Brukere skal ikke ha direkte kontakt med andre i normale tilfeller. Brukere og superbrukere støtter seg først og fremst på brukermanualen.
 
-Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt med fagansvarlig.
-
-Hvis fagansvarlig ikke kan hjelpe eller har svar, tar fagansvarlig videre kontakt med utviklingsteam (evt enda et ledd med produkteier?).
+Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt med fagansvarlig, produkteier eller utviklingsteam.
 
 Utviklingsteam oppdaterer brukermanual der det er hensiktsmessig.
 
@@ -85,7 +83,7 @@ Utviklingsteam oppdaterer brukermanual der det er hensiktsmessig.
 
 Brukere tar kontakt med NHN kundeservice som anvist i footer på eFORSK.
 
-NHN kundesenter tar i tur kontakt med utviklingsteam hvis dem ikke kan hjelpe.
+NHN kundesenter tar i tur kontakt med utviklingsteam hvis de ikke kan bistå.
 
 ## Ny demodatabase i eFORSK (mrsweb)
 
