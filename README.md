@@ -106,33 +106,26 @@ Hemit har ingen eierrettigheter til data som systemet forvalter.
 
 # Hvorfor velge eFORSK? 
 
-*Brukervennlighet:* Enkel tilgang til data og enkelt brukergrensesnitt
+**Brukervennlighet:** Enkel tilgang til data og enkelt brukergrensesnitt
 
-### Plattformuavhengig: 
-Tilgjengelig på alle enheter 
+**Plattformuavhengig:** Tilgjengelig på alle enheter 
 
-### Sikkerhet: 
-Streng beskyttelse av sensitive data. Risikovurdert løsning.  
+**Sikkerhet:** Streng beskyttelse av sensitive data. Risikovurdert løsning.  
 
-### Kostnadseffektivitet: 
-Reduserer tid brukt på manuelle prosesser og administrasjon.  
+**Kostnadseffektivitet:** Reduserer tid brukt på manuelle prosesser og administrasjon.  
 
-### Skalerbarhet: 
-Tilpasset både små og store forskningsprosjekter. 
+**Skalerbarhet:** Tilpasset både små og store forskningsprosjekter. 
 
-### Digital samtykkehåndtering: 
-Enkel og digital innsamling av samtykker fra studiedeltakere.  
+**Digital samtykkehåndtering:** Enkel og digital innsamling av samtykker fra studiedeltakere.  
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
 
 ## Kreditering ved publisering 
 For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet: 
 
-### Norsk versjon: 
-«Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» 
+**Norsk versjon:** «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» 
 
-### Engelsk versjon: 
-«Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit.» 
+**Engelsk versjon:** «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit.» 
 
 # Support og brukerstøtte 
 
