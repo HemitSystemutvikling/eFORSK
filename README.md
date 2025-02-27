@@ -106,22 +106,22 @@ Hemit har ingen eierrettigheter til data som systemet forvalter.
 
 # Hvorfor velge eFORSK? 
 
-## Brukervennlighet: 
+### Brukervennlighet: 
 Enkel tilgang til data og  
 
-## Plattformuavhengig: 
+### Plattformuavhengig: 
 Tilgjengelig på alle enheter 
 
-## Sikkerhet: 
+### Sikkerhet: 
 Streng beskyttelse av sensitive data. Risikovurdert løsning.  
 
-## Kostnadseffektivitet: 
+### Kostnadseffektivitet: 
 Reduserer tid brukt på manuelle prosesser og administrasjon.  
 
-## Skalerbarhet: 
+### Skalerbarhet: 
 Tilpasset både små og store forskningsprosjekter. 
 
-## Digital samtykkehåndtering: 
+### Digital samtykkehåndtering: 
 Enkel og digital innsamling av samtykker fra studiedeltakere.  
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
