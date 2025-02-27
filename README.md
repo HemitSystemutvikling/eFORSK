@@ -120,7 +120,7 @@ Hemit har ingen eierrettigheter til data som systemet forvalter.
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
 
-## Kreditering ved publisering 
+### Kreditering ved publisering 
 For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet: 
 
 **Norsk versjon:** «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» 
