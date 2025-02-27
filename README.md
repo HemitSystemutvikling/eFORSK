@@ -6,22 +6,22 @@ eFORSK er en plattformuavhengig IKT-løsning utviklet for å bistå kliniske for
 
 # Funksjoner og fordeler med eFORSK  
 
-## Effektiv datainnsamling  
+### Effektiv datainnsamling  
 eFORSK er laget for å gjøre datainnsamling enkel, samtidig som informasjonssikkerhet er ivaretatt. Enten man benytter digitale løsninger gjennom Helsenorge eller Digipost, eller fysiske papirskjema i posten, sikrer eFORSK at informasjonen distribueres effektivt og sikkert i tråd med risikovurdering. 
 
-## Digitale samtykker 
+### Digitale samtykker 
 
 Med eFORSK kan man enkelt innhente samtykke fra studiedeltakere gjennom digitale samtykkeprosedyrer. Dette forenkler prosessen uten å gå på bekostning av reglement og forskrifter for personvern og etiske prinsipper. 
 
-## Randomisering 
+### Randomisering 
 
 Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiedeltakere i forskningsprosjektene i eFORSK.  
 
-## Monitorering 
+### Monitorering 
 
 eFORSK har en brukervennlig og enkel monitoreringsfunksjon som gir oversikt over dataene som samles inn. Denne funksjonen er per i dag under utvikling for å bli mer avansert, og vil på sikt oppfylle GCP-krav slik at eFORSK kan benyttes i kliniske legemiddelutprøvingsstudier. 
 
-## «På vegne av»-funksjonalitet 
+### «På vegne av»-funksjonalitet 
 
 eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunisere med relasjoner av et forskningsobjekt direkte, noe som forenkler kommunikasjonssløyfa for aktuelle studiedeltakere. 
 
