@@ -106,8 +106,7 @@ Hemit har ingen eierrettigheter til data som systemet forvalter.
 
 # Hvorfor velge eFORSK? 
 
-### Brukervennlighet: 
-Enkel tilgang til data og  
+*Brukervennlighet:* Enkel tilgang til data og enkelt brukergrensesnitt
 
 ### Plattformuavhengig: 
 Tilgjengelig på alle enheter 
