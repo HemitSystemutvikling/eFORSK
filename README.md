@@ -2,7 +2,6 @@
 
 eFORSK er en plattformuavhengig IKT-løsning utviklet for å bistå kliniske forskere i Helse Midt-Norge med å samle inn data fra studiedeltakere på en effektiv og sikker måte. Med støtte for utsending og mottak av elektroniske og fysiske skjemaer i posten, gir eFORSK muligheten til å administrere og overvåke forskningsprosjekter med minimal manuell innsats. 
 
-[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/#changelog)
 
 # Funksjoner og fordeler med eFORSK  
 
@@ -25,17 +24,20 @@ eFORSK har en brukervennlig og enkel monitoreringsfunksjon som gir oversikt over
 
 eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunisere med relasjoner av et forskningsobjekt direkte, noe som forenkler kommunikasjonssløyfa for aktuelle studiedeltakere. 
 
+
 # Avtale om bruk 
 
 Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass. Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database. Det er derfor å fylle ut vedlegg til DBA så nøyaktig som mulig.  
 
 Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.  
 
+
 # Strategi og videreutvikling 
 
 eFORSK er en del av Helse Midt-Norges overordnede strategi for IKT-støtte til forskning, og skal sammen med andre strategiske tiltak skape en datadrevet kultur som sikrer ressurs- og kostnadseffektive beslutningsgrunnlag for drift og utvikling av helsetjenesten. I tråd med den besluttede strategien, er videreutviklingen av eFORSK sterkt forankret i de behovene og prioriteringene som er definert i IKT-styringsstrukturen i Helse Midt-Norge. Dette innebærer at eFORSK på en smidig måte tilpasses for å møte både forskernes behov for effektive verktøy samt forskningsinstitusjonenes målsetninger. Utviklingsarbeidet har alltid fokus på de strenge kravene til datasikkerhet, personvern og forskningsetikk. Samlet gir dette en helhetlig tilnærming hvor både teknologiske løsninger og forskningskrav blir ivaretatt på en målrettet måte og eFORSK jobbes kontinuerlig med for at det skal være en fremtidsrettet plattform som kan bidra til en mer effektiv og sikker datainnsamling i klinisk forskning. 
 
 Alle nye oppdrageringer blir nøye validert, testet og dokumentert før produksjonssetting. Dette gjennomføres av egen testleder i Hemit Systemutvikling, som benytter flere sett med testdata for å validere at den endrede koden fungerer og at arbeidsflyten er i tråd med forventningene.  
+
 
 # Teknisk løsning 
 
@@ -94,6 +96,7 @@ eFORSK bruker personregisteret som kilde til personinformasjon, dette for å unn
  
 Personregisteret eksponerer følgende API-er: HL7, WCF og Rest. eFORSK bruker WCF-grensesnittet. 
 
+
 # Data i applikasjonen 
 
 Forskningsdata som legges inn i systemet registreres med brukernavn og tidspunkt. Alle dataendringer foretatt av brukere er sporbare. Personlige opplysninger om studiedeltagere skal være begrenset til det minimum som er nødvendig for å skille deltagere fra hverandre. Et minimumskrav til identifiseringsinformasjon er unik nøkkel. Studiedeltagerdata for identifikasjon låses med en gang for å unngå ombytting av pasienter. 
@@ -103,6 +106,7 @@ Randomiseringsresultater er ikke manipulerbare for brukere av systemet uansett s
 Hvert enkelt prosjekt har sin egen database, men er tilgjengelig gjennom en felles applikasjon. Dette sikrer tilstrekkelig adskillelse av data prosjektene i mellom. Hver database har sin egen krypteringsnøkkel. Prosjektet benytter en GUID (Global Unique Identifier) som en referanse til forskningsobjektet i stedet for fødselsnummer/ID-nummer. 
 
 Hemit har ingen eierrettigheter til data som systemet forvalter. 
+
 
 # Hvorfor velge eFORSK? 
 
@@ -118,6 +122,7 @@ Hemit har ingen eierrettigheter til data som systemet forvalter.
 
 **Digital samtykkehåndtering:** Enkel og digital innsamling av samtykker fra studiedeltakere.  
 
+
 # Publisering av resultater oppnådd ved bruk av eFORSK 
 
 ### Kreditering ved publisering 
@@ -127,6 +132,12 @@ For å sikre korrekt kreditering ved publisering av forskningsresultater oppnåd
 
 **Engelsk versjon:** «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit.» 
 
+
 # Support og brukerstøtte 
 
 Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om tjenesten. 
+
+
+# Brukermanual 
+
+[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/#changelog)
