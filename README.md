@@ -61,7 +61,7 @@ eFORSK baserer seg på claims-basert autentisering der pålogging og tildeling a
 eFORSK benytter OIDC for autentisering mot FALK og henter identitet og tilgangsinformasjon derifra, hvor brukeren selv velger enhet og rolle før det gis tilgang til eFORSK. Informasjon om brukerens claims videreformidles så til eFORSK. All informasjonen om brukerrettigheter vil følge alle operasjoner brukeren gjennomfører.  
 
 ### Tilgangstre: 
-Et register i eFORSK kan definere sitt eget hierarkisk tilgangstre som styrer hvilke data en pålogget bruker har tilgang til.  
+Et register i eFORSK kan definere sitt eget hierarkisk tilgangstre som styrer hvilke data en pålogget bruker har tilgang til. Dette er en nyttig funksjon for multisenterstudier.
 
 ### Lagdeling: 
 eFORSK har en horisontal og vertikal lagdeling. De horisontale lagene skiller mellom web-laget, som er det brukeren ser, service-laget, som inneholder forretningslogikken og database-laget. Bare web-laget er tilgjengelig for brukerne. De vertikale lagene skiller mellom de ulike registrene, eller forskningsprosjektene, i løsningen. All data for et register lagres i registerets egen database og deles ikke med noen av de andre registrene
