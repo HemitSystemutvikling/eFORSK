@@ -140,4 +140,4 @@ Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for bruk
 
 # Brukermanual 
 
-[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/#changelog)
+[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/)
