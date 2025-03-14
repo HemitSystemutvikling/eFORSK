@@ -29,7 +29,11 @@ eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunise
 
 Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass. Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database. Det er derfor å fylle ut vedlegg til DBA så nøyaktig som mulig.  
 
-Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.  
+Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.
+
+# Finansiering
+
+eFORSK blir finansiert gjennom tjenestebudsjettet til Helse Midt-Norge og det er derfor ikke behov for finansiering av de enkelte interne forskningsprosjektene som har databaser i eFORSK. Det som imidlertid kan bli kostnadselementer, og som blir fakturert brukere av eFORSK, er distribuering av skjema og brev i papirformat (krever eget oppsett), samt bruk av eSignering (les mer om dette [her](https://samarbeid.digdir.no/esignering/kostnadsmodell-esignering/103)). Videre kan det medføre kostnader for prosjektet dersom studiedeltaker som mottar skjema eller brev benytter sikker digital postkasse og ikke er aktiv i Helsenorge (les mer [her](https://samarbeid.digdir.no/digital-postkasse/kostnadsmodell-digital-postkasse/106)). På grunn av dette krever vi faktureringsinformasjon ved opprettelse av samtlige nye databaser i eFORSK. 
 
 
 # Strategi og videreutvikling 
