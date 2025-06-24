@@ -31,6 +31,37 @@ Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er alle
 
 Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.
 
+
+# Hvorfor velge eFORSK? 
+
+**Brukervennlighet:** Oversiktlig tilgang til data og enkelt brukergrensesnitt
+
+**Plattformuavhengig:** Tilgjengelig på alle enheter 
+
+**Sikkerhet:** Streng beskyttelse av sensitive data. Risikovurdert løsning.  
+
+**Kostnadseffektivitet:** Reduserer tid brukt på manuelle prosesser og administrasjon.  
+
+**Skalerbarhet:** Tilpasset både små og store forskningsprosjekter. 
+
+**Digital samtykkehåndtering:** Enkel og digital innsamling av samtykker fra studiedeltakere.  
+
+
+# Brukermanual 
+
+[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/)
+
+
+# Publisering av resultater oppnådd ved bruk av eFORSK 
+
+### Kreditering ved publisering 
+For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet: 
+
+**Norsk versjon:** «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» 
+
+**Engelsk versjon:** «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit.» 
+
+
 # Finansiering
 
 eFORSK blir finansiert gjennom tjenestebudsjettet til Helse Midt-Norge og det er derfor ikke behov for finansiering av de enkelte interne forskningsprosjektene som har databaser i eFORSK. Det som imidlertid kan bli kostnadselementer, og som blir fakturert brukere av eFORSK, er distribuering av skjema og brev i papirformat (krever eget oppsett), samt bruk av eSignering (les mer om dette [her](https://samarbeid.digdir.no/esignering/kostnadsmodell-esignering/103)). Videre kan det medføre kostnader for prosjektet dersom studiedeltaker som mottar skjema eller brev benytter sikker digital postkasse og ikke er aktiv i Helsenorge (les mer [her](https://samarbeid.digdir.no/digital-postkasse/kostnadsmodell-digital-postkasse/106)). På grunn av dette krever vi faktureringsinformasjon ved opprettelse av samtlige nye databaser i eFORSK. 
@@ -112,36 +143,7 @@ Hvert enkelt prosjekt har sin egen database, men er tilgjengelig gjennom en fell
 Hemit har ingen eierrettigheter til data som systemet forvalter. 
 
 
-# Hvorfor velge eFORSK? 
-
-**Brukervennlighet:** Oversiktlig tilgang til data og enkelt brukergrensesnitt
-
-**Plattformuavhengig:** Tilgjengelig på alle enheter 
-
-**Sikkerhet:** Streng beskyttelse av sensitive data. Risikovurdert løsning.  
-
-**Kostnadseffektivitet:** Reduserer tid brukt på manuelle prosesser og administrasjon.  
-
-**Skalerbarhet:** Tilpasset både små og store forskningsprosjekter. 
-
-**Digital samtykkehåndtering:** Enkel og digital innsamling av samtykker fra studiedeltakere.  
-
-
-# Publisering av resultater oppnådd ved bruk av eFORSK 
-
-### Kreditering ved publisering 
-For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet: 
-
-**Norsk versjon:** «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» 
-
-**Engelsk versjon:** «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit.» 
-
-
 # Support og brukerstøtte 
 
 Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om tjenesten. 
 
-
-# Brukermanual 
-
-[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/)
