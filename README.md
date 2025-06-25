@@ -18,7 +18,7 @@ Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiede
 
 ### Monitorering 
 
-eFORSK har en brukervennlig og enkel monitoreringsfunksjon som gir oversikt over dataene som samles inn. Denne funksjonen er per i dag under utvikling for å bli mer avansert, og vil på sikt oppfylle GCP-krav slik at eFORSK kan benyttes i kliniske legemiddelutprøvingsstudier. 
+eFORSK har en brukervennlig og enkel monitoreringsfunksjon som gir oversikt over dataene som samles inn. 
 
 ### «På vegne av»-funksjonalitet 
 
