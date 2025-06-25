@@ -27,7 +27,7 @@ eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunise
 
 # Nyheter i eFORSK
 
-Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige oppgradering (19.06.2025) inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. Dermed er det per i dag mulig å bruke eFORSK til nasjonale legemiddelstudier og samtidig oppfylle GCP-krav. 
+Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige oppgradering (19.06.2025) inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. 
 
 
 # Avtale om bruk 
