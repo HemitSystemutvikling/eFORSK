@@ -25,6 +25,11 @@ eFORSK har en brukervennlig og enkel monitoreringsfunksjon som gir oversikt over
 eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunisere med relasjoner av et forskningsobjekt direkte, noe som forenkler kommunikasjonssløyfa for aktuelle studiedeltakere. 
 
 
+# Nyheter i eFORSK
+
+Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige oppgradering (19.06.2025) inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. Dermed er det per i dag mulig å bruke eFORSK til nasjonale legemiddelstudier og samtidig oppfylle GCP-krav. 
+
+
 # Avtale om bruk 
 
 Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass. Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database. Det er derfor å fylle ut vedlegg til DBA så nøyaktig som mulig.  
@@ -49,7 +54,7 @@ Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eks
 
 # Brukermanual 
 
-[Brukermanual ligger her](https://eforskbrukermanual.azurewebsites.net/)
+eFORSK er enkel i bruk, vi anbefaler likevel å gjøre seg kjent med [Brukermanualen, som ligger her](https://eforskbrukermanual.azurewebsites.net/)
 
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
