@@ -32,7 +32,7 @@ Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres s
 
 # Avtale om bruk 
 
-Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass. Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database. Det er derfor å fylle ut vedlegg til DBA så nøyaktig som mulig.  
+Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass. Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database. Vi anbefaler derfor å fylle ut vedlegg til DBA så nøyaktig som mulig.  
 
 Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.
 
@@ -60,11 +60,11 @@ eFORSK er enkel i bruk, vi anbefaler likevel å gjøre seg kjent med [Brukermanu
 # Publisering av resultater oppnådd ved bruk av eFORSK 
 
 ### Kreditering ved publisering 
-For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet: 
+For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet i publikasjonen: 
 
 **Norsk versjon:** «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» 
 
-**Engelsk versjon:** «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit.» 
+**Engelsk versjon:** «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit HF.» 
 
 
 # Finansiering
