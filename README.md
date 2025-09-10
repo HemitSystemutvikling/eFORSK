@@ -18,7 +18,7 @@ Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiede
 
 ### Monitorering 
 
-eFORSK har mulighet for å markere felter i skjema for kildedataverifisering (source data verification, SDV), samt en egen oversikt for monitorer med monitoreringsstatus med søke- og filtrerningsmuligheter. 
+eFORSK har mulighet for å aktivere kildedataverifisering (source data verification, SDV) på utvalgte felter i skjema. Det finnes også en egen monitoreringsoversikt for personer med monitorrolle med søke- og filtrerningsmuligheter. 
 
 ### «På vegne av»-funksjonalitet 
 
