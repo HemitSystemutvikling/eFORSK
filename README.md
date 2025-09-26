@@ -155,7 +155,3 @@ Hvert enkelt prosjekt har sin egen database, men er tilgjengelig gjennom en fell
 Hemit har ingen eierrettigheter til data som systemet forvalter. 
 
 
-# Support og brukerstøtte 
-
-Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om tjenesten. 
-
