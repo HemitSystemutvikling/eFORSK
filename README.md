@@ -39,22 +39,29 @@ Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eks
 
 # Hvorfor velge eFORSK? 
 
-**Brukervennlighet:** Oversiktlig tilgang til data og enkelt brukergrensesnitt
+**Brukervennlighet:** Sømløs og brukervennlig brukergrensesnitt med enkel tilgang til data
 
-**Plattformuavhengig:** Tilgjengelig på alle enheter 
+**Plattformuavhengig:** Tilgjengelig på alle enheter og samarbeid mulig på tvers av geografiske avgrensninger i sanntid
 
-**Sikkerhet:** Streng beskyttelse av sensitive data. Risikovurdert løsning.  
+**Sikkerhet:** Risikovurdert løsning med streng beskyttelse av sensitive data
 
-**Kostnadseffektivitet:** Reduserer tid brukt på manuelle prosesser og administrasjon.  
+**Kostnadseffektivitet:** Reduserer tid brukt på manuelle prosesser og administrasjon
 
-**Skalerbarhet:** Tilpasset både små og store forskningsprosjekter. 
+**Skalerbarhet:** Tilpasset både små og store forskningsprosjekter
 
-**Digital samtykkehåndtering:** Enkel og digital innsamling av samtykker fra studiedeltakere.  
+**Digital samtykkehåndtering:** Enkel og digital innsamling av samtykker fra studiedeltakere
+
+**Eksport:** Mulighet for eksport av innsamlet studiedata i ulike formater for oppfølgingsstudier eller langtidslagring
 
 
 # Brukermanual 
 
-eFORSK er enkel i bruk, vi anbefaler likevel å gjøre seg kjent med [Brukermanualen, som ligger her](https://eforskbrukermanual.azurewebsites.net/)
+eFORSK er selvbetjent og enkel i bruk, vi anbefaler likevel å gjøre seg kjent med [Brukermanualen, som ligger her](https://eforskbrukermanual.azurewebsites.net/)
+
+
+# Support og brukerstøtte 
+
+Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten. På [nettsiden til Forskningsavdelingen](https://www.stolav.no/avdelinger/sentral-stab/fagavdelingen/forskningsavdelingen/datahandtering/#eforsk) ligger et utvalg brukermanualer som kan være nyttig ved bygging av skjema, eksport av data ved studieslutt, osv. 
 
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
