@@ -27,7 +27,7 @@ eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunise
 
 # Nyheter i eFORSK
 
-Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige funksjonelle oppgradering (19.06.2025) inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. Neste versjon, v11.1, er i hovudsak en teknisk oppgradering og planlegges produksjonssatt i løpet av høsten (se endringslogg for detaljer).
+Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige funksjonelle oppgradering (19.06.2025) inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. Nyeste versjon, v11.1, er i hovudsak en teknisk oppgradering og ble produksjonssatt 6. oktober 2025 (se endringslogg for detaljer).
 
 
 # Avtale om bruk 
