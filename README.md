@@ -1,3 +1,8 @@
+---
+layout: default
+title: Innhold
+---
+
 # Velkommen til eFORSK 
 
 eFORSK er en plattformuavhengig IKT-løsning utviklet for å bistå kliniske forskere i Helse Midt-Norge med å samle inn data fra studiedeltakere på en effektiv og sikker måte. Med støtte for utsending og mottak av elektroniske og fysiske skjemaer i posten, gir eFORSK muligheten til å administrere og overvåke forskningsprosjekter med minimal manuell innsats. 
