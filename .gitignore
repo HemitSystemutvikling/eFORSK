@@ -4,3 +4,15 @@
 
 /.vs/slnx.sqlite-journal
 /.vs/slnx.sqlite
+/.vs/eFORSK
+
+# Ruby / Jekyll
+vendor/
+.bundle/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_site/
+# OS / Editor
+.DS_Store
+Thumbs.db
