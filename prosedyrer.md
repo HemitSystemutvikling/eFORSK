@@ -2,10 +2,10 @@
 
 Roller omtalt her:
 
-* Tjenesteutvikler (Synnøve Nymark Aasen, Kjell-Åge Tingstad)
+* Tjenesteutvikler (Synnøve Nymark Aasen)
 * Produkteier (John Petter Skjetne)
 * Fagansvarlig (Monica Ramberg)
-* Utviklingsteam (Kasper Røstvold, Roger Aunet, Torild Kulseth Klemetsaune)
+* Utviklingsteam (Kasper Røstvold, Øivind Hepsø)
 * NHN kundesenter
 * Superbruker 
 * Brukere

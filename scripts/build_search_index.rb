@@ -58,6 +58,14 @@ markdown_files.sort.each do |abs|
   url_base = '/' + rel.sub(DOC_EXT, '.html').gsub(' ', '%20')
   type = classify(rel)
 
+  # Detect front matter presence
+  has_front_matter = raw.start_with?('---')
+
+  # Special-case README without front matter: point to index.html (homepage)
+  if rel == 'README.md' && !has_front_matter
+    url_base = '/index.html'
+  end
+
   sections = []
   current = { title: nil, content: String.new, anchor: nil }
 
