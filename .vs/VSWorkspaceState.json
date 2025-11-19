@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\usermanual"
+    "\\assets",
+    "\\scripts"
   ],
-  "SelectedNode": "\\usermanual\\99-changelog.md",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }

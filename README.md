@@ -1,6 +1,6 @@
 # Velkommen til eFORSK 
 
-eFORSK er en plattformuavhengig IKT-løsning utviklet for å bistå kliniske forskere i Helse Midt-Norge med å samle inn data fra studiedeltakere på en effektiv og sikker måte. Med støtte for utsending og mottak av elektroniske og fysiske skjemaer i posten, gir eFORSK muligheten til å administrere og overvåke forskningsprosjekter med minimal manuell innsats. 
+eFORSK er en plattformuavhengig IKT-løsning utviklet for å bistå kliniske forskere i Helse Midt-Norge med å samle inn data fra studiedeltakere på en effektiv og sikker måte. Med støtte for utsending og mottak av elektroniske og fysiske skjemaer i posten, gir eFORSK muligheten til å administrere og overvåke forskningsprosjekter med minimal manuell innsats.
 
 
 # Funksjoner og fordeler med eFORSK  
@@ -61,7 +61,7 @@ eFORSK er selvbetjent og enkel i bruk, vi anbefaler likevel å gjøre seg kjent 
 
 # Support og brukerstøtte 
 
-Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten. På [nettsiden til Forskningsavdelingen](https://www.stolav.no/avdelinger/sentral-stab/fagavdelingen/forskningsavdelingen/datahandtering/#eforsk) ligger et utvalg brukermanualer som kan være nyttig ved bygging av skjema, eksport av data ved studieslutt, osv. 
+Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten. På [nettsiden til Forskningsavdelingen](https://www.stolav.no/avdelinger/sentral-stab/fagavdelingen/forskningsavdelingen/datahandtering/#eforsk) ligger et utvalg brukermanualer som kan være nyttig ved bygging av skjema, eksport av data ved studieslutt, osv.
 
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
@@ -141,7 +141,7 @@ Personregisteret er et API for søk etter personer i folkeregisteret. Personregi
  
 eFORSK bruker personregisteret som kilde til personinformasjon, dette for å unngå å lagre mer informasjon om pasienten enn nødvendig. eFORSK lagrer kun en kryptert kopi av pasientens personnummer, all annen personinformasjon lastes ned fra personregisteret ved behov. 
  
-Personregisteret eksponerer følgende API-er: HL7, WCF og Rest. eFORSK bruker WCF-grensesnittet. 
+Personregisteret eksponerer følgende API-er: HL7, WCF og Rest. eFORSK bruker WCF-grensesnittet.
 
 
 # Data i applikasjonen 
