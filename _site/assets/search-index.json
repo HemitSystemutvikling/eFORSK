@@ -1,0 +1,279 @@
+{
+  "generated_at": "2025-11-18T11:21:35Z",
+  "doc_count": 39,
+  "docs": [
+    {
+      "id": "README.md#velkommen-til-eforsk",
+      "title": "Velkommen til eFORSK",
+      "content": "eFORSK er en plattformuavhengig IKT-løsning utviklet for å bistå kliniske forskere i Helse Midt-Norge med å samle inn data fra studiedeltakere på en effektiv og sikker måte. Med støtte for utsending og mottak av elektroniske og fysiske skjemaer i posten, gir eFORSK muligheten til å administrere og overvåke forskningsprosjekter med minimal manuell innsats.",
+      "url": "/index.html#velkommen-til-eforsk",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#effektiv-datainnsamling",
+      "title": "Effektiv datainnsamling",
+      "content": "eFORSK er laget for å gjøre datainnsamling enkel, samtidig som informasjonssikkerhet er ivaretatt. Enten man benytter digitale løsninger gjennom Helsenorge eller Digipost, eller fysiske papirskjema i posten, sikrer eFORSK at informasjonen distribueres effektivt og sikkert i tråd med risikovurdering.",
+      "url": "/index.html#effektiv-datainnsamling",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#digitale-samtykker",
+      "title": "Digitale samtykker",
+      "content": "Med eFORSK kan man enkelt innhente samtykke fra studiedeltakere gjennom digitale samtykkeprosedyrer. Dette forenkler prosessen uten å gå på bekostning av reglement og forskrifter for personvern og etiske prinsipper.",
+      "url": "/index.html#digitale-samtykker",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#randomisering",
+      "title": "Randomisering",
+      "content": "Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiedeltakere i forskningsprosjektene i eFORSK.",
+      "url": "/index.html#randomisering",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#monitorering",
+      "title": "Monitorering",
+      "content": "eFORSK har mulighet for å aktivere kildedataverifisering (source data verification, SDV) på utvalgte felter i skjema. Det finnes også en egen monitoreringsoversikt for personer med monitorrolle med søke- og filtrerningsmuligheter.",
+      "url": "/index.html#monitorering",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#på-vegne-av-funksjonalitet",
+      "title": "«På vegne av»-funksjonalitet",
+      "content": "eFORSK har en integrert \"på vegne av\"-funksjon som gjør det mulig å kommunisere med relasjoner av et forskningsobjekt direkte, noe som forenkler kommunikasjonssløyfa for aktuelle studiedeltakere.",
+      "url": "/index.html#på-vegne-av-funksjonalitet",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#nyheter-i-eforsk",
+      "title": "Nyheter i eFORSK",
+      "content": "Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i Endringsloggen . Forrige funksjonelle oppgradering v11 ble produksjonssatt 19.06.2025 og inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. Nyeste versjon, v11.1, er i hovudsak en teknisk oppgradering og ble produksjonssatt 6. oktober 2025 (se endringslogg for detaljer).",
+      "url": "/index.html#nyheter-i-eforsk",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#avtale-om-bruk",
+      "title": "Avtale om bruk",
+      "content": "Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass. Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database. Vi anbefaler derfor å fylle ut vedlegg til DBA så nøyaktig som mulig. Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.",
+      "url": "/index.html#avtale-om-bruk",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#hvorfor-velge-eforsk",
+      "title": "Hvorfor velge eFORSK?",
+      "content": "Brukervennlighet: Sømløs og brukervennlig brukergrensesnitt med enkel tilgang til data Plattformuavhengig: Tilgjengelig på alle enheter og samarbeid mulig på tvers av geografiske avgrensninger i sanntid Sikkerhet: Risikovurdert løsning med streng beskyttelse av sensitive data Kostnadseffektivitet: Reduserer tid brukt på manuelle prosesser og administrasjon Skalerbarhet: Tilpasset både små og store forskningsprosjekter Digital samtykkehåndtering: Enkel og digital innsamling av samtykker fra studiedeltakere Eksport: Mulighet for eksport av innsamlet studiedata i ulike formater for oppfølgingsstudier eller langtidslagring",
+      "url": "/index.html#hvorfor-velge-eforsk",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#brukermanual",
+      "title": "Brukermanual",
+      "content": "eFORSK er selvbetjent og enkel i bruk, vi anbefaler likevel å gjøre seg kjent med Brukermanualen, som ligger her",
+      "url": "/index.html#brukermanual",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#support-og-brukerstøtte",
+      "title": "Support og brukerstøtte",
+      "content": "Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten. På nettsiden til Forskningsavdelingen ligger et utvalg brukermanualer som kan være nyttig ved bygging av skjema, eksport av data ved studieslutt, osv.",
+      "url": "/index.html#support-og-brukerstøtte",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#kreditering-ved-publisering",
+      "title": "Kreditering ved publisering",
+      "content": "For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK, ber vi om at følgende formulering benyttes i metodekapitlet i publikasjonen: Norsk versjon: «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK, en web-basert applikasjon utviklet og administrert av Hemit HF.» Engelsk versjon: «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application developed and maintained by Central Norway Regional Health Authority's IT department, Hemit HF.»",
+      "url": "/index.html#kreditering-ved-publisering",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#finansiering",
+      "title": "Finansiering",
+      "content": "eFORSK blir finansiert gjennom tjenestebudsjettet til Helse Midt-Norge og det er derfor ikke behov for finansiering av de enkelte interne forskningsprosjektene som har databaser i eFORSK. Det som imidlertid kan bli kostnadselementer, og som blir fakturert brukere av eFORSK, er distribuering av skjema og brev i papirformat (krever eget oppsett), samt bruk av eSignering (les mer om dette her ). Videre kan det medføre kostnader for prosjektet dersom studiedeltaker som mottar skjema eller brev benytter sikker digital postkasse og ikke er aktiv i Helsenorge (les mer her ). På grunn av dette krever vi faktureringsinformasjon ved opprettelse av samtlige nye databaser i eFORSK.",
+      "url": "/index.html#finansiering",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#strategi-og-videreutvikling",
+      "title": "Strategi og videreutvikling",
+      "content": "eFORSK er en del av Helse Midt-Norges overordnede strategi for IKT-støtte til forskning, og har sammen med andre strategiske tiltak som målsetning å skape en datadrevet kultur som sikrer ressurs- og kostnadseffektive beslutningsgrunnlag for drift og utvikling av helsetjenesten. I tråd med den besluttede strategien, er videreutviklingen av eFORSK sterkt forankret i de behovene og prioriteringene som er definert i IKT-styringsstrukturen i Helse Midt-Norge. Dette innebærer at eFORSK på en smidig måte tilpasses for å møte både forskernes behov for effektive verktøy samt forskningsinstitusjonenes målsetninger. Utviklingsarbeidet har alltid fokus på de strenge kravene til datasikkerhet, personvern og forskningsetikk. Samlet gir dette en helhetlig tilnærming hvor både teknologiske løsninger og forskningskrav blir ivaretatt på en målrettet måte og eFORSK jobbes kontinuerlig med for at det skal være en fremtidsrettet plattform som kan bidra til en mer effektiv og sikker datainnsamling i klinisk forskning. Alle nye oppdrageringer blir nøye validert, testet og dokumentert før produksjonssetting. Dette gjennomføres av egen testleder i Hemit Systemutvikling, som benytter flere sett med testdata for å validere at den endrede koden fungerer og at arbeidsflyten er i tråd med forventningene. Se gjerne Endringsloggen for detaljer om utvikling.",
+      "url": "/index.html#strategi-og-videreutvikling",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#overordnet-arkitektur",
+      "title": "Overordnet arkitektur",
+      "content": "eFORSK har en overordnet arkitektur basert på medisinsk registreringssystem (MRS), som en trelagsapplikasjon med lignende sikkerhetsmodell (se under). Applikasjonen består av flere databaser; en felles, Common, samt egne databaser tilegnet hvert enkelt forskningsprosjekt, eller register. eFORSK er skrevet i .NET, benytter MS sql-database og driftes på virtuelle miljø hos Norsk Helsenett (NHN).",
+      "url": "/index.html#overordnet-arkitektur",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#sikkerhet",
+      "title": "Sikkerhet",
+      "content": "eFORSK er risikovurdert og all data i programvaren behandles i henhold til gjeldende regler for personvern og datasikkerhet. Programvaren bruker sikker digital kommunikasjon gjennom plattformer som Helsenorge og Digipost, og kommuniserer med FALK og ePROM, som i likhet med eFORSK er bygget på nasjonal infrastruktur. eFORSK tilbys som en installasjon i NHN infrastruktur og tilbys helseforetak og universiteter med internett som bærer. Sikkerhetsnivået er tilpasset slik eksponering (all data og kommunikasjon er kryptert og sterk autentisering ved bruk av HelseID). eFORSK er utformet i tråd med kravene som stilles i Norm for informasjonssikkerhet helse- og omsorgstjenesten (Normen) samt tilpasset kravene i GDPR. Det tas backup av de virtuelle serverne i forkant av større endringer, samt backup av databasene hver natt. Personvern ivaretas i alle ledd og eFORSK har en robust sikkerhetsmodell egnet for å håndtere sensitive personopplysninger. Sikkerhetsmodellen deles grovt i fire deler:",
+      "url": "/index.html#sikkerhet",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#autentisering-brukertilgang-og-rollestyring",
+      "title": "Autentisering, brukertilgang og rollestyring:",
+      "content": "eFORSK baserer seg på claims-basert autentisering der pålogging og tildeling av informasjon om roller og rettigheter er eksternt. Denne informasjonen benyttes til å styre hvilke data brukeren har lov til å se og hvilke operasjoner de ulike har lov til å utføre. Forsøk på å få tilgang til eFORSK uten å være autentisert og autorisert vil avvises og brukeren videresendes til den integrerte løsningen FALK for pålogging. Alle brukertilganger i systemet er personlige. eFORSK benytter OIDC for autentisering mot FALK og henter identitet og tilgangsinformasjon derifra, hvor brukeren selv velger enhet og rolle før det gis tilgang til eFORSK. Informasjon om brukerens claims videreformidles så til eFORSK. All informasjonen om brukerrettigheter vil følge alle operasjoner brukeren gjennomfører.",
+      "url": "/index.html#autentisering-brukertilgang-og-rollestyring",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#tilgangstre",
+      "title": "Tilgangstre:",
+      "content": "Et register i eFORSK kan definere sitt eget hierarkisk tilgangstre som styrer hvilke data en pålogget bruker har tilgang til. Dette er en nyttig funksjon for multisenterstudier.",
+      "url": "/index.html#tilgangstre",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#lagdeling",
+      "title": "Lagdeling:",
+      "content": "eFORSK har en horisontal og vertikal lagdeling. De horisontale lagene skiller mellom web-laget, som er det brukeren ser, service-laget, som inneholder forretningslogikken og database-laget. Bare web-laget er tilgjengelig for brukerne. De vertikale lagene skiller mellom de ulike registrene, eller forskningsprosjektene, i løsningen. All data for et register lagres i registerets egen database og deles ikke med noen av de andre registrene Kryptering: Sensitive data som kan brukes for å identifisere en person lagres kryptert i databasen. Hver database, eller register, i systemet har sin egen krypteringsnøkkel som brukes for dette området. Krypteringsalgoritme som benyttes er AES128 med modus ECB.",
+      "url": "/index.html#lagdeling",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#pseudonymisering",
+      "title": "Pseudonymisering:",
+      "content": "I eFORSK kan data samles inn på personer fra folkeregisteret (per i dag Personregisteret, som i løpet av 2025 skal erstattes av Persontjenesten). Personers identitet er aldri direkte tilgjengelig i eFORSKs database. Ved første gangs oppslag i en persons data opprettes et pseudonym for denne i databasen. Personens fødselsnummer lagres kryptert i en database separert fra de andre opplysningene. Det brukes egne krypteringsnøkler for hvert register. Alle andre personopplysninger lastes ned fra Personregisteret ved behov, disse lagres ikke. Unntaket her er når et register skal samle inn informasjon om pasienten (som kjønn, demografi) på sine skjema. Selve skjemadataene lagres kryptert med overnevnte krypteringsnøkkel.",
+      "url": "/index.html#pseudonymisering",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#logging",
+      "title": "Logging",
+      "content": "Logging skal sørge for komplett sporbarhet over hva som har skjedd i applikasjonen og skal ikke inneholde sensitiv data. Det skilles mellom to typer logging: Serverlogger benyttes for det meste til å logge kjøring av bakgrunnsjobber og feil i applikasjonen. Logger til windows event-log plukkes opp av SPLUNK. Datalogger benyttes for å logge brukeraktiviteter mot data i applikasjonen og lagrer til databasen. Det er automatisk loggføring av innloggingsforsøk og endring i studiedata i systemet i tillegg til Audit Trail av studiedata som lagres i databasens tabeller. For hver slik hendelse registreres tidspunkt, operasjonsnavn og om operasjon var mislykket eller vellykket.",
+      "url": "/index.html#logging",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#innsyn",
+      "title": "Innsyn",
+      "content": "En person skal kunne spørre applikasjonen om den har data om personen, hvilke data, hvem som har behandlet/sett dataene og kunne be om å få seg slettet.",
+      "url": "/index.html#innsyn",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#eprom",
+      "title": "ePROM:",
+      "content": "Pasientrapporterte resultater (ePROM) inkluderer spørreskjemaer som vurderer helse og livskvalitet fra pasientens perspektiv. Disse tilbakemeldingene inngår i registre som har til formål å vurdere og forbedre kvaliteten på behandling som gis på norske sykehus. eFORSK sender ut pasientskjema til pasientene via ePROM. ePROM-løsningen distribuerer skjemaene via Helsenorge, digital postkasse eller fysisk brev i posten. Pasientens utfylte skjema returneres til eFORSK for dataanalyse.",
+      "url": "/index.html#eprom",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#personregisteret-skal-erstattes-av-persontjenesten-i-løpet-av-2025",
+      "title": "Personregisteret (skal erstattes av Persontjenesten i løpet av 2025):",
+      "content": "Personregisteret er et API for søk etter personer i folkeregisteret. Personregisteret støtter søk etter personnummer og kombinasjoner av navn og hjemkommune. eFORSK bruker personregisteret som kilde til personinformasjon, dette for å unngå å lagre mer informasjon om pasienten enn nødvendig. eFORSK lagrer kun en kryptert kopi av pasientens personnummer, all annen personinformasjon lastes ned fra personregisteret ved behov. Personregisteret eksponerer følgende API-er: HL7, WCF og Rest. eFORSK bruker WCF-grensesnittet.",
+      "url": "/index.html#personregisteret-skal-erstattes-av-persontjenesten-i-løpet-av-2025",
+      "type": "guide"
+    },
+    {
+      "id": "README.md#data-i-applikasjonen",
+      "title": "Data i applikasjonen",
+      "content": "Forskningsdata som legges inn i systemet registreres med brukernavn og tidspunkt. Alle dataendringer foretatt av brukere er sporbare. Personlige opplysninger om studiedeltagere skal være begrenset til det minimum som er nødvendig for å skille deltagere fra hverandre. Et minimumskrav til identifiseringsinformasjon er unik nøkkel. Studiedeltagerdata for identifikasjon låses med en gang for å unngå ombytting av pasienter. Randomiseringsresultater er ikke manipulerbare for brukere av systemet uansett studie, men kan omgås ved å opprette skjemaet på nytt (dette logges). Hvert enkelt prosjekt har sin egen database, men er tilgjengelig gjennom en felles applikasjon. Dette sikrer tilstrekkelig adskillelse av data prosjektene i mellom. Hver database har sin egen krypteringsnøkkel. Prosjektet benytter en GUID (Global Unique Identifier) som en referanse til forskningsobjektet i stedet for fødselsnummer/ID-nummer. Hemit har ingen eierrettigheter til data som systemet forvalter.",
+      "url": "/index.html#data-i-applikasjonen",
+      "type": "guide"
+    },
+    {
+      "id": "images/README.md",
+      "title": "README",
+      "content": "",
+      "url": "/images/README.html",
+      "type": "guide"
+    },
+    {
+      "id": "index.md",
+      "title": "index",
+      "content": "{% include relative README.md %}",
+      "url": "/index.html",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#prosedyrer",
+      "title": "Prosedyrer",
+      "content": "Roller omtalt her: Tjenesteutvikler (Synnøve Nymark Aasen, Kjell-Åge Tingstad) Produkteier (John Petter Skjetne) Fagansvarlig (Monica Ramberg) Utviklingsteam (Kasper Røstvold, Roger Aunet, Torild Kulseth Klemetsaune) NHN kundesenter Superbruker Brukere",
+      "url": "/prosedyrer.html#prosedyrer",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#ny-database-i-eforsk-prod",
+      "title": "Ny database i eFORSK (prod)",
+      "content": "Utføres av fagansvarlige.",
+      "url": "/prosedyrer.html#ny-database-i-eforsk-prod",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#forberedelser",
+      "title": "Forberedelser",
+      "content": "Det må først foreligge en avtale om bruk av eFORSK. Informasjon fra denne brukes for å sette opp databasen.",
+      "url": "/prosedyrer.html#forberedelser",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#hvis-eprom",
+      "title": "Hvis ePROM:",
+      "content": "Opprett bestillersystem i ePROM: Logg inn i ePROM PROD og ePROM QA Gå til Bestillersystemer, velg Nytt bestillersystem Bestillersystemet skal ha samme navn som prosjektet (max 100 tegn). NB: Fyll kun ut feltet 'Navn', ikke feltet 'Navn - Ikke sensitiv' Kryss av sjekkboksen eFORSK API base URL skal være: https://app-eforsk.nhn.no/eforsk (både QA og PROD) Ta vare på begge API-nøkler Alle andre felter kan stå tomme Lagre bestillersystem",
+      "url": "/prosedyrer.html#hvis-eprom",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#når-dette-er-gjort-gå-videre-med-selve-opprettelsen-i-eforsk",
+      "title": "Når dette er gjort, gå videre med selve opprettelsen i eFORSK",
+      "content": "Aktiver database på https://eforsk.nhn.no/ (Logg inn med rolle Administrator på enhet Administrasjon), gå til Databaser Fyll inn alle felter og kryss av for bestilte funksjoner. Dersom ePROM skal brukes, legg inn API-nøkler for hhv PROD og QA/TEST. Lagre database. Dersom ePROM er aktivert, velg 'Test ePROM'. Begge skal ha status 'Tilkoblet', da er det kontakt mellom eFORSK og ePROM. Hvis gjenstående ledige databaser har nådd 3 eller mindre, kontakt tjenesteutvikler og meld fra om dette slik at bestilles opp flere fra NHN",
+      "url": "/prosedyrer.html#når-dette-er-gjort-gå-videre-med-selve-opprettelsen-i-eforsk",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#tildele-roller-i-falk",
+      "title": "Tildele roller i FALK",
+      "content": "Vær nøye på å gi riktige tilganger, KRITISK punkt. Superbruker for prosjektet må eksistere i FALK (hvis ikke må vedkommende bes om å søke om tilgang på https://falk.eforsk.nhn.no/u/apply?app=eFORSK. Det er ikke mulig å tildele roller til brukere som aldri har vært innlogget i FALK. Gi tilgang til superbruker i FALK, så vil superbruker ta seg av videre tilgangstildeling for databasen. Superbruker trenger to ulike roller til den nye databasen: Superbruker: Finn superbrukeren under Søknader, trykk på den, administrer tilgang og tildel rollen Superbruker på riktig database Tilgangstildeler: Under Tilgangstildeler, søk opp superbruker, sett som tilgangstildeler på riktig database ( NB: ikke velg 'Alle enheter' ) Informer superbruker om at databasen er klar",
+      "url": "/prosedyrer.html#tildele-roller-i-falk",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#planlegging-av-ny-versjon",
+      "title": "Planlegging av ny versjon",
+      "content": "Utføres av utviklingsteam, fagansvarlige, tjenesteutvikler og produkteier",
+      "url": "/prosedyrer.html#planlegging-av-ny-versjon",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#produksjonssetting-av-ny-versjon",
+      "title": "Produksjonssetting av ny versjon",
+      "content": "Utføres av utviklingsteam (?) Hold endringslogg i brukermanual oppdatert på endringer og datoer fortløpende Logg på eFORSK prod i administrasjon og opprett nye varsler for ny versjon (se tidligere varsler for eksempel her) (Send ut e-post til alle aktive brukere siste måned med varsler om ny versjon?) Etter produksjonssetting, sjekk status på integrasjoner i eFORSK administrasjon Følg opp feil og advarsler i splunk Oppdater brukermanual",
+      "url": "/prosedyrer.html#produksjonssetting-av-ny-versjon",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#nytt-eprom-skjema",
+      "title": "Nytt ePROM skjema",
+      "content": "Digitalt skjema: superbruker kan selv godkjenne ePROM-skjema for sin database. Administrator kan også godkjenne skjema (for alle databaser). Dette gjelder digitale skjema. Papirskjema : en prosjektleder i Hemit systemutvikling må involveres med testere før papirskjema kan bestilles, dette er en prosess som tar uker - så det lønner seg å komme i gang tidlig.",
+      "url": "/prosedyrer.html#nytt-eprom-skjema",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#henvendelser-fra-brukere",
+      "title": "Henvendelser fra brukere",
+      "content": "Skjer i følgende rekkefølge: Brukere (og potensielle brukere) av eFORSK skal via sin forskningsavdeling få en superbruker som dem henvender seg til. For de fleste vil dette kunne være eforsk@stolav.no. Brukere skal ikke ha direkte kontakt med andre i normale tilfeller. Brukere og superbrukere støtter seg først og fremst på brukermanualen. Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt med fagansvarlig, produkteier eller utviklingsteam. Utviklingsteam oppdaterer brukermanual der det er hensiktsmessig.",
+      "url": "/prosedyrer.html#henvendelser-fra-brukere",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#feil-i-løsningen",
+      "title": "Feil i løsningen",
+      "content": "Brukere tar kontakt med NHN kundeservice som anvist i footer på eFORSK. NHN kundesenter tar i tur kontakt med utviklingsteam hvis de ikke kan bistå.",
+      "url": "/prosedyrer.html#feil-i-løsningen",
+      "type": "guide"
+    },
+    {
+      "id": "prosedyrer.md#ny-demodatabase-i-eforsk-mrsweb",
+      "title": "Ny demodatabase i eFORSK (mrsweb)",
+      "content": "Utføres av fagansvarlig? Evt utviklingsteam.. Når en person vil ha demodatabase; Finn ledig statisk fødselsnummer i test p-reg Logg på administrasjonen som administrator på https://mrsweb.hemit.org/eFORSK/ Finn ledig database. Legg personens navn i databasenavnet. Legg inn personens navn i \"Navn på databaseansvarlig \". Legg til fødselsnummer i fakturafeltet slik at vi har det lagret Aktiver ePROM, gjenbruk API nøkler fra andre databaser Aktiver alle funksjoner til utprøving Logg på falk med fødselsnummeret og søk tilgang til databasen Logg på falk som eFORSK administrator og finn søknaden, gi databaseansvarlig rollen til databasen, og tilgangstildeler rollen til databasen.",
+      "url": "/prosedyrer.html#ny-demodatabase-i-eforsk-mrsweb",
+      "type": "guide"
+    }
+  ]
+}
