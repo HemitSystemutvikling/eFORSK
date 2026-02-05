@@ -12,22 +12,30 @@ eFORSK er laget for å gjøre datainnsamling enkel, samtidig som informasjonssik
 
 Med eFORSK kan man enkelt innhente samtykke fra studiedeltakere gjennom digitale samtykkeprosedyrer. Dette forenkler prosessen uten å gå på bekostning av reglement og forskrifter for personvern og etiske prinsipper. 
 
-### Randomisering 
+### Monitoreringsfunksjonalitet
 
-Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiedeltakere i forskningsprosjektene i eFORSK.  
+eFORSK har mulighet for å aktivere kildedataverifisering (source data verification, SDV) på utvalgte felter i skjema i tråd med GCP-krav for legemiddelstudier. Det finnes også en egen monitoreringsoversikt for personer med monitorrolle med søke- og filtrerningsmuligheter. 
 
-### Monitorering 
+### Kommentarer (queries)  
 
-eFORSK har mulighet for å aktivere kildedataverifisering (source data verification, SDV) på utvalgte felter i skjema. Det finnes også en egen monitoreringsoversikt for personer med monitorrolle med søke- og filtrerningsmuligheter. 
+Dersom det oppdages dataoppføring som er mangelfull, inkonsistent, uklar eller utenfor forventet område kan man i eFORSK benytte seg av den integrerte queries/kommentarer-funksjonaliteten.
+
+### Revisjonslogg (audit trail)
+
+Audit trail (revisjonslogg) gir oversikt over hvilke personer og roller som har gjort hvilke aktiviteter (registrering, endring, sletting, verifisering, etc) til hvilken tid i prosjektperioden.
 
 ### «På vegne av»-funksjonalitet 
 
 eFORSK har en integrert "på vegne av"-funksjon som gjør det mulig å kommunisere med relasjoner av et forskningsobjekt direkte, noe som forenkler kommunikasjonssløyfa for aktuelle studiedeltakere. 
 
+### Randomisering 
+
+Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiedeltakere i forskningsprosjektene i eFORSK.  
+
 
 # Nyheter i eFORSK
 
-Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige funksjonelle oppgradering v11 ble produksjonssatt 19.06.2025 og inneholdt blant annet monitoreringsfunksjonalitet i tråd med GCP-krav i en 1.0-versjon. Nyeste versjon, v11.1, er i hovudsak en teknisk oppgradering og ble produksjonssatt 6. oktober 2025 (se endringslogg for detaljer).
+Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige funksjonelle oppgradering, eFORSK v12, ble produksjonssatt 27.01.2026 og inneholdt blant annet audit trail-funksjonalitet i tråd med GCP-krav. Neste versjon, v12.2, er i hovudsak en teknisk oppgradering og kommer ila Q1 2026.
 
 
 # Avtale om bruk 
@@ -56,12 +64,16 @@ Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eks
 
 # Brukermanual 
 
-eFORSK er selvbetjent og enkel i bruk, vi anbefaler likevel å gjøre seg kjent med [Brukermanualen, som ligger her](https://eforskbrukermanual.azurewebsites.net/)
+eFORSK er selvbetjent og enkel i bruk, vi anbefaler likevel å gjøre seg kjent med [Brukermanualen](https://eforskbrukermanual.azurewebsites.net/)
 
 
 # Support og brukerstøtte 
 
-Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten. På [nettsiden til Forskningsavdelingen](https://www.stolav.no/avdelinger/sentral-stab/fagavdelingen/forskningsavdelingen/datahandtering/#eforsk) ligger et utvalg brukermanualer som kan være nyttig ved bygging av skjema, eksport av data ved studieslutt, osv.
+Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK. Ta kontakt på forskningsstotte@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten. På [nettsiden til Forskningsavdelingen](https://www.stolav.no/avdelinger/sentral-stab/fagavdelingen/forskningsavdelingen/datahandtering/#eforsk) ligger et utvalg brukermanualer som kan være nyttig ved bygging av skjema, eksport av data ved studieslutt, osv. 
+
+Dersom du har problemer med skjemaet ditt og tar kontakt med superbruker om dette, ber vi om at du legger ved skjemadefinisjon til henvendelsen. Denne finner du under Administrasjon - Skjematyper - Eksporter skjemadefinisjon.
+
+Dersom du har problemer med feilede bestillinger trenger vi eksportfil eller ePromGuid, som du finner under "ePROM bestillinger" (Velg Bruk disse - Eksporter data).
 
 
 # Publisering av resultater oppnådd ved bruk av eFORSK 
@@ -136,10 +148,10 @@ En person skal kunne spørre applikasjonen om den har data om personen, hvilke d
 ### ePROM: 
 Pasientrapporterte resultater (ePROM) inkluderer spørreskjemaer som vurderer helse og livskvalitet fra pasientens perspektiv. Disse tilbakemeldingene inngår i registre som har til formål å vurdere og forbedre kvaliteten på behandling som gis på norske sykehus. eFORSK sender ut pasientskjema til pasientene via ePROM. ePROM-løsningen distribuerer skjemaene via Helsenorge, digital postkasse eller fysisk brev i posten. Pasientens utfylte skjema returneres til eFORSK for dataanalyse. 
 
-### Personregisteret (skal erstattes av Persontjenesten i løpet av 2025): 
-Personregisteret er et API for søk etter personer i folkeregisteret. Personregisteret støtter søk etter personnummer og kombinasjoner av navn og hjemkommune. 
+### Persontjenesten: 
+Persontjenesten er et API for søk etter personer i folkeregisteret. Persontjenesten støtter søk etter personnummer og kombinasjoner av navn og hjemkommune. 
  
-eFORSK bruker personregisteret som kilde til personinformasjon, dette for å unngå å lagre mer informasjon om pasienten enn nødvendig. eFORSK lagrer kun en kryptert kopi av pasientens personnummer, all annen personinformasjon lastes ned fra personregisteret ved behov. 
+eFORSK bruker folkeregisteret som kilde til personinformasjon, dette for å unngå å lagre mer informasjon om pasienten enn nødvendig. eFORSK lagrer kun en kryptert kopi av pasientens personnummer, all annen personinformasjon lastes ned fra personregisteret ved behov. 
  
 Personregisteret eksponerer følgende API-er: HL7, WCF og Rest. eFORSK bruker WCF-grensesnittet.
 
