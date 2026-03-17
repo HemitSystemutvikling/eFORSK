@@ -35,7 +35,7 @@ Det er i samarbeid med superbrukere mulig å sette opp randomisering av studiede
 
 # Nyheter i eFORSK
 
-Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige funksjonelle oppgradering, eFORSK v12, ble produksjonssatt 27.01.2026 og inneholdt blant annet audit trail-funksjonalitet i tråd med GCP-krav. Neste versjon, v12.2, er i hovudsak en teknisk oppgradering og kommer ila Q1 2026.
+Innholdet i alle oppgraderinger, funksjonelle såvel som tekniske, oppsummeres suksessivt i [Endringsloggen](https://eforskbrukermanual.azurewebsites.net/#changelog). Forrige funksjonelle oppgradering, eFORSK v12, ble produksjonssatt 27.01.2026 og inneholdt blant annet audit trail-funksjonalitet i tråd med GCP-krav. Forrige produksjonsatte versjon, v12.2, var i hovudsak en teknisk oppgradering og kom 11. mars 2026.
 
 
 # Avtale om bruk 
