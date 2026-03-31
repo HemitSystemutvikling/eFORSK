@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "glob": "^11.0.3",
+    "glob": "^11.1.0",
     "gray-matter": "^4.0.3",
     "lunr": "^2.3.9"
   }
