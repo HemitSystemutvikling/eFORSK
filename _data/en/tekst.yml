@@ -1,0 +1,41 @@
+﻿# ============================================================
+# MAIN TEXTS (English) - edit here to update the website
+# ============================================================
+
+hero:
+  badge: "Central Norway Regional Health Authority — Hemit"
+  tittel: "Data Collection for Clinical Research"
+  tittel_uthevet: "Clinical Research"
+  ingress: >
+    eFORSK is a platform-independent IT solution that makes it easy and secure
+    to collect data from study participants. Supporting digital and physical
+    forms, electronic consent, and randomization — all in one solution.
+  knapp_manual: "Open user manual ↗"
+  knapp_funksjoner: "See features"
+
+seksjoner:
+  funksjoner:
+    etikett: "Features"
+    tittel: "Everything you need for your research project"
+    ingress: >
+      eFORSK is built to cover the needs of clinical researchers in Central Norway
+      — from consent to data export.
+
+  hvorfor:
+    etikett: "Why eFORSK"
+    tittel: "Built for research in the health sector"
+
+  nyheter:
+    etikett: "News"
+    tittel: "Latest updates"
+
+  teknisk:
+    etikett: "Technical solution"
+    tittel: "Architecture and security"
+    ingress: "eFORSK is built on the MRS platform and operated by Norsk Helsenett (NHN)."
+
+cta:
+  tittel: "Ready to get started?"
+  ingress: "Contact the Research Department at St. Olavs Hospital to set up your database in eFORSK."
+  knapp_kontakt: "Contact"
+  knapp_manual: "User manual ↗"

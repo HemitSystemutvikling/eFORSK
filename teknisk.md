@@ -1,8 +1,12 @@
-﻿---
+---
 layout: teknisk
 title: Teknisk løsning
+title_en: Technical solution
 description: Arkitektur, sikkerhet, logging og integrasjoner i eFORSK
+description_en: Architecture, security, logging and integrations in eFORSK
 ---
+
+<div class="lang-no" markdown="1">
 
 <nav class="toc" aria-label="Innhold på siden">
   <div class="toc-label">Innhold</div>
@@ -106,3 +110,116 @@ Randomiseringsresultater er ikke manipulerbare for brukere av systemet uansett s
 Hvert enkelt prosjekt har sin egen database, men er tilgjengelig gjennom en felles applikasjon. Dette sikrer tilstrekkelig adskillelse av data prosjektene imellom. Hver database har sin egen krypteringsnøkkel. Prosjektet benytter en GUID (Global Unique Identifier) som referanse til forskningsobjektet i stedet for fødselsnummer/ID-nummer.
 
 Hemit har ingen eierrettigheter til data som systemet forvalter.
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════
+     ENGLISH VERSION — edit below this line for English content
+     ═══════════════════════════════════════════════════════════ -->
+
+<div class="lang-en" markdown="1">
+
+<nav class="toc" aria-label="Page contents">
+  <div class="toc-label">Contents</div>
+  <ol class="toc-list">
+    <li><a href="#arkitektur">Overall architecture</a></li>
+    <li><a href="#sikkerhet">Security</a>
+      <ol class="toc-sub">
+        <li><a href="#autentisering">Authentication, user access and role management</a></li>
+        <li><a href="#tilgangstre">Access tree</a></li>
+        <li><a href="#lagdeling">Layering and encryption</a></li>
+        <li><a href="#pseudonymisering">Pseudonymization</a></li>
+      </ol>
+    </li>
+    <li><a href="#logging">Logging</a></li>
+    <li><a href="#innsyn">Right of access</a></li>
+    <li><a href="#integrasjoner">Integrations</a>
+      <ol class="toc-sub">
+        <li><a href="#eprom">ePROM</a></li>
+        <li><a href="#persontjenesten">The Person Registry</a></li>
+      </ol>
+    </li>
+    <li><a href="#data">Data in the application</a></li>
+  </ol>
+</nav>
+
+## Overall architecture
+
+eFORSK has an overall architecture based on the Medical Registry System (MRS), as a three-tier application with a similar security model. The application consists of several databases; a shared Common database, as well as dedicated databases for each individual research project (registry). eFORSK is written in .NET, uses an MS SQL database and is operated on virtual environments at Norsk Helsenett (NHN).
+
+<hr class="section-divider">
+
+## Security
+
+eFORSK has been risk-assessed and all data in the software is processed in accordance with applicable rules for privacy and data security. The software uses secure digital communication through platforms such as Helsenorge and Digipost, and communicates with FALK and ePROM, which — like eFORSK — are built on national infrastructure.
+
+eFORSK is offered as an installation in NHN infrastructure and is available to health trusts and universities with internet as the carrier. The security level is adapted to such exposure — all data and communication is encrypted and strong authentication is performed using HelseID. eFORSK is designed in accordance with the requirements set out in the Norwegian standard for information security in the health and care sector (Normen) and adapted to GDPR requirements.
+
+Backups of the virtual servers are taken before major changes, and database backups are taken every night.
+
+Privacy is maintained at every level and eFORSK has a robust security model suited for handling sensitive personal data. The security model is broadly divided into four parts:
+
+### Authentication, user access and role management
+
+eFORSK uses claims-based authentication where login and assignment of role and rights information is external. This information is used to control which data the user is allowed to see and which operations they are allowed to perform. Attempts to access eFORSK without being authenticated and authorized will be rejected and the user redirected to FALK for login. All user accounts in the system are personal.
+
+eFORSK uses OIDC for authentication against FALK and retrieves identity and access information from there, where the user selects unit and role before being granted access to eFORSK. Information about the user's claims is then passed to eFORSK. All information about user rights will accompany all operations the user performs.
+
+### Access tree
+
+A registry in eFORSK can define its own hierarchical access tree that controls which data a logged-in user has access to. This is a useful feature for multi-centre studies.
+
+### Layering
+
+eFORSK has horizontal and vertical layering. The horizontal layers separate the web layer (what the user sees), the service layer (business logic) and the database layer. Only the web layer is accessible to users. The vertical layers separate the different registries in the solution. All data for a registry is stored in the registry's own database and is not shared with other registries.
+
+**Encryption:** Sensitive data that can be used to identify a person is stored encrypted in the database. Each database (registry) has its own encryption key. The encryption algorithm used is AES128 with ECB mode.
+
+### Pseudonymization
+
+In eFORSK, data can be collected on persons from the national population register via the Person Registry. A person's identity is never directly available in eFORSK's database. The first time a person's data is accessed, a pseudonym is created for that person in the database. The person's national identity number is stored encrypted in a database separated from the other information. Separate encryption keys are used for each registry. All other personal information is downloaded from the Person Registry as needed — it is not stored. The exception is when a registry collects information about the patient (gender, demographics) in its forms. The form data itself is stored encrypted using the above encryption key.
+
+<hr class="section-divider">
+
+## Logging
+
+Logging ensures complete traceability of what has happened in the application and must not contain sensitive data. Two types of logging are distinguished:
+
+- **Server logs** are mainly used to log the execution of background jobs and errors in the application. Logs to the Windows event log are picked up by SPLUNK.
+- **Data logs** are used to log user activities against data in the application and are stored in the database.
+
+There is automatic logging of login attempts and changes to study data in the system, in addition to the Audit Trail of study data stored in the database tables. For each such event, the timestamp, operation name and whether the operation was unsuccessful or successful is recorded.
+
+<hr class="section-divider">
+
+## Right of access
+
+A person must be able to query the application about whether it holds data on them, what data, who has processed/viewed the data, and be able to request deletion.
+
+<hr class="section-divider">
+
+## Integrations
+
+### ePROM
+
+Patient-reported outcomes (ePROM) include questionnaires that assess health and quality of life from the patient's perspective. eFORSK sends patient forms to patients via ePROM. The ePROM solution distributes the forms via Helsenorge, secure digital mailbox or physical letter. The patient's completed forms are returned to eFORSK for data analysis.
+
+### Persontjenesten
+
+Persontjenesten is an API for searching for persons in the national population register. It supports searches by national identity number and combinations of name and municipality.
+
+eFORSK uses the population register as the source of personal information, to avoid storing more information about the patient than necessary. eFORSK only stores an encrypted copy of the patient's national identity number — all other personal information is downloaded from the register as needed.
+
+<hr class="section-divider">
+
+## Data in the application
+
+Research data entered into the system is recorded with username and timestamp. All data changes made by users are traceable. Personal information about study participants must be limited to the minimum necessary to distinguish participants from each other. A minimum requirement for identification information is a unique key. Study participant data for identification is locked immediately to prevent patient mix-ups.
+
+Randomization results cannot be manipulated by users of the system regardless of study, but can be circumvented by creating the form again (this is logged).
+
+Each individual project has its own database but is accessible through a shared application. This ensures adequate separation of data between projects. Each database has its own encryption key. The project uses a GUID (Global Unique Identifier) as a reference to the research subject instead of a national identity number.
+
+Hemit holds no ownership rights to the data managed by the system.
+
+</div>

@@ -299,6 +299,30 @@
 
       .page-hero h1 { font-size: 1.5rem; }
     }
+
+    /* ── LANGUAGE TOGGLE ── */
+    .lang-toggle {
+      display: flex; align-items: center;
+      background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px; padding: 3px; gap: 2px; flex-shrink: 0;
+    }
+    .lang-toggle button {
+      background: none; border: none; cursor: pointer;
+      color: rgba(255,255,255,0.65); font-size: 12px; font-weight: 700;
+      padding: 4px 10px; border-radius: 16px; transition: all 0.2s;
+      letter-spacing: 0.05em;
+    }
+    .lang-toggle button.active {
+      background: rgba(255,255,255,0.22); color: white;
+    }
+    .lang-toggle button:hover:not(.active) { color: rgba(255,255,255,0.9); }
+
+    /* Show/hide language content */
+    body.lang-en .lang-no { display: none !important; }
+    body.lang-no .lang-en { display: none !important; }
+
+    /* page-hero title bilingual */
+    .page-hero-no, .page-hero-en { }
   </style>
 </head>
 <body>
@@ -315,13 +339,42 @@
       </button>
 
       <ul class="nav-links" id="main-nav" role="list">
-        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active" aria-current="page"{% endif %}>Hjem</a></li>
-        <li><a href="{{ '/#funksjoner' | relative_url }}" {% if page.nav_section == 'funksjoner' %}class="active"{% endif %}>Funksjoner</a></li>
-        <li><a href="{{ '/bruk' | relative_url }}" {% if page.url contains 'bruk' %}class="active" aria-current="page"{% endif %}>Bruk av eFORSK</a></li>
-        <li><a href="{{ '/teknisk' | relative_url }}" {% if page.url contains 'teknisk' %}class="active" aria-current="page"{% endif %}>Teknisk</a></li>
-        <li><a href="{{ '/om-oss' | relative_url }}" {% if page.url contains 'om-oss' %}class="active" aria-current="page"{% endif %}>Om oss</a></li>
-        <li class="nav-external"><a href="https://eforskbrukermanual.azurewebsites.net/" target="_blank" rel="noopener">Brukermanual ↗</a></li>
+        <li>
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active" aria-current="page"{% endif %}>
+            <span class="lang-no">Hjem</span><span class="lang-en">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/#funksjoner' | relative_url }}" {% if page.nav_section == 'funksjoner' %}class="active"{% endif %}>
+            <span class="lang-no">Funksjoner</span><span class="lang-en">Features</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/bruk' | relative_url }}" {% if page.url contains 'bruk' %}class="active" aria-current="page"{% endif %}>
+            <span class="lang-no">Bruk av eFORSK</span><span class="lang-en">Using eFORSK</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/teknisk' | relative_url }}" {% if page.url contains 'teknisk' %}class="active" aria-current="page"{% endif %}>
+            <span class="lang-no">Teknisk</span><span class="lang-en">Technical</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/om-oss' | relative_url }}" {% if page.url contains 'om-oss' %}class="active" aria-current="page"{% endif %}>
+            <span class="lang-no">Om oss</span><span class="lang-en">About</span>
+          </a>
+        </li>
+        <li class="nav-external">
+          <a href="https://eforskbrukermanual.azurewebsites.net/" target="_blank" rel="noopener">
+            <span class="lang-no">Brukermanual ↗</span><span class="lang-en">User manual ↗</span>
+          </a>
+        </li>
       </ul>
+
+      <div class="lang-toggle" role="group" aria-label="Language / Språk">
+        <button id="btn-no" class="active" onclick="setLang('no')" aria-pressed="true">NO</button>
+        <button id="btn-en" onclick="setLang('en')" aria-pressed="false">EN</button>
+      </div>
 
       <a href="https://www.hemit.no" target="_blank" rel="noopener" class="nav-hemit-logo" aria-label="Hemit">
         <svg version="1.1" viewBox="0 0 161 62" height="36" xmlns="http://www.w3.org/2000/svg">
@@ -344,8 +397,16 @@
   {% unless page.hide_page_hero %}
   {% unless page.url == '/' or page.url == '/index.html' %}
   <div class="page-hero">
-    <h1>{{ page.title }}</h1>
-    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+    <h1>
+      <span class="lang-no">{{ page.title }}</span>
+      <span class="lang-en">{{ page.title_en | default: page.title }}</span>
+    </h1>
+    {% if page.description %}
+    <p>
+      <span class="lang-no">{{ page.description }}</span>
+      <span class="lang-en">{{ page.description_en | default: page.description }}</span>
+    </p>
+    {% endif %}
   </div>
   {% endunless %}
   {% endunless %}
@@ -356,14 +417,14 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="footer-inner">
-      <div class="footer-logo">e<span>FORSK</span></div>
+      <div class="footer-logo">eFORSK</div>
       <div>
-        Utviklet og driftet av
-        <a href="https://www.hemit.no" target="_blank" rel="noopener">Hemit</a>
-        &mdash; Helse Midt-Norges IKT-avdeling
+        <span class="lang-no">Utviklet av <a href="https://www.hemit.no" target="_blank" rel="noopener">Hemit</a>, driftet av <a href="https://www.nhn.no" target="_blank" rel="noopener">Norsk Helsenett</a></span>
+        <span class="lang-en">Developed by <a href="https://www.hemit.no" target="_blank" rel="noopener">Hemit</a>, operated by <a href="https://www.nhn.no" target="_blank" rel="noopener">Norsk Helsenett</a></span>
       </div>
       <div>
-        Support: <a href="mailto:eforsk@stolav.no">eforsk@stolav.no</a>
+        <span class="lang-no">Support:</span><span class="lang-en">Support:</span>
+        <a href="mailto:eforsk@stolav.no">eforsk@stolav.no</a>
         &nbsp;|&nbsp;
         <a href="https://github.com/HemitSystemutvikling/eFORSK" target="_blank" rel="noopener">GitHub</a>
       </div>
@@ -371,7 +432,7 @@
   </footer>
 
   <script>
-    // Mobile nav toggle
+    // ── Mobile nav toggle ──
     const btn = document.querySelector('.nav-hamburger');
     const nav = document.getElementById('main-nav');
     if (btn && nav) {
@@ -379,7 +440,6 @@
         const open = nav.classList.toggle('open');
         btn.setAttribute('aria-expanded', open);
       });
-      // Close on outside click
       document.addEventListener('click', e => {
         if (!btn.contains(e.target) && !nav.contains(e.target)) {
           nav.classList.remove('open');
@@ -387,6 +447,24 @@
         }
       });
     }
+
+    // ── Language toggle ──
+    function setLang(lang) {
+      document.body.classList.remove('lang-no', 'lang-en');
+      document.body.classList.add('lang-' + lang);
+      document.getElementById('btn-no').classList.toggle('active', lang === 'no');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-no').setAttribute('aria-pressed', lang === 'no');
+      document.getElementById('btn-en').setAttribute('aria-pressed', lang === 'en');
+      try { localStorage.setItem('eforsk-lang', lang); } catch(e) {}
+    }
+
+    // Apply saved or default language on load
+    (function() {
+      let lang = 'no';
+      try { lang = localStorage.getItem('eforsk-lang') || 'no'; } catch(e) {}
+      setLang(lang);
+    })();
   </script>
 </body>
 </html>

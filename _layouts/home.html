@@ -13,7 +13,11 @@ hide_page_hero: true
     _data/om.yml         - Avtale, Support, Kreditering, Finansiering, Strategi
 -->
 {% assign t = site.data.tekst %}
+{% assign t_en = site.data.en.tekst %}
 {% assign om = site.data.om %}
+{% assign features_en = site.data.en.features %}
+{% assign why_en = site.data.en.why %}
+{% assign news_en = site.data.en.news %}
 
 <style>
   .hero {
@@ -134,11 +138,21 @@ hide_page_hero: true
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
-    <h1>eFORSK<br><span>Datainnsamling for klinisk forskning</span></h1>
-    <p class="hero-lead">{{ t.hero.ingress }}</p>
+    <h1>eFORSK<br>
+      <span class="lang-no"><span>Datainnsamling for klinisk forskning</span></span>
+      <span class="lang-en"><span>Data Collection for Clinical Research</span></span>
+    </h1>
+    <p class="hero-lead lang-no">{{ t.hero.ingress }}</p>
+    <p class="hero-lead lang-en">{{ t_en.hero.ingress }}</p>
     <div class="hero-actions">
-      <a href="#funksjoner" class="btn btn-primary">Se funksjoner</a>
-      <a href="{{ '/bruk' | relative_url }}" class="btn btn-outline">Bruk av eFORSK</a>
+      <a href="#funksjoner" class="btn btn-primary">
+        <span class="lang-no">{{ t.hero.knapp_funksjoner }}</span>
+        <span class="lang-en">{{ t_en.hero.knapp_funksjoner }}</span>
+      </a>
+      <a href="{{ '/bruk' | relative_url }}" class="btn btn-outline">
+        <span class="lang-no">Bruk av eFORSK</span>
+        <span class="lang-en">Using eFORSK</span>
+      </a>
     </div>
   </div>
 </section>
@@ -147,17 +161,24 @@ hide_page_hero: true
 <section class="section" id="hvorfor">
   <div class="section-inner">
     <div class="section-header">
-      <div class="section-label">{{ t.seksjoner.hvorfor.etikett }}</div>
-      <h2>{{ t.seksjoner.hvorfor.tittel }}</h2>
+      <div class="section-label lang-no">{{ t.seksjoner.hvorfor.etikett }}</div>
+      <div class="section-label lang-en">{{ t_en.seksjoner.hvorfor.etikett }}</div>
+      <h2 class="lang-no">{{ t.seksjoner.hvorfor.tittel }}</h2>
+      <h2 class="lang-en">{{ t_en.seksjoner.hvorfor.tittel }}</h2>
     </div>
-    <div class="why-grid">
+    <div class="why-grid lang-no">
       {% for item in site.data.why %}
       <div class="why-item">
         <div class="why-icon">{{ item.ikon }}</div>
-        <div>
-          <h3>{{ item.tittel }}</h3>
-          <p>{{ item.tekst }}</p>
-        </div>
+        <div><h3>{{ item.tittel }}</h3><p>{{ item.tekst }}</p></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="why-grid lang-en">
+      {% for item in why_en %}
+      <div class="why-item">
+        <div class="why-icon">{{ item.ikon }}</div>
+        <div><h3>{{ item.tittel }}</h3><p>{{ item.tekst }}</p></div>
       </div>
       {% endfor %}
     </div>
@@ -168,12 +189,24 @@ hide_page_hero: true
 <section class="section section-alt" id="funksjoner">
   <div class="section-inner">
     <div class="section-header">
-      <div class="section-label">{{ t.seksjoner.funksjoner.etikett }}</div>
-      <h2>{{ t.seksjoner.funksjoner.tittel }}</h2>
-      <p>{{ t.seksjoner.funksjoner.ingress }}</p>
+      <div class="section-label lang-no">{{ t.seksjoner.funksjoner.etikett }}</div>
+      <div class="section-label lang-en">{{ t_en.seksjoner.funksjoner.etikett }}</div>
+      <h2 class="lang-no">{{ t.seksjoner.funksjoner.tittel }}</h2>
+      <h2 class="lang-en">{{ t_en.seksjoner.funksjoner.tittel }}</h2>
+      <p class="lang-no">{{ t.seksjoner.funksjoner.ingress }}</p>
+      <p class="lang-en">{{ t_en.seksjoner.funksjoner.ingress }}</p>
     </div>
-    <div class="card-grid">
+    <div class="card-grid lang-no">
       {% for feature in site.data.features %}
+      <div class="card">
+        <span class="card-icon">{{ feature.ikon }}</span>
+        <h3>{{ feature.tittel }}</h3>
+        <p>{{ feature.tekst }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="card-grid lang-en">
+      {% for feature in features_en %}
       <div class="card">
         <span class="card-icon">{{ feature.ikon }}</span>
         <h3>{{ feature.tittel }}</h3>
@@ -184,42 +217,46 @@ hide_page_hero: true
   </div>
 </section>
 
-<!-- 3. SUMMARY CARDS: eFORSK i bruk + Teknisk + Brukermanual -->
+<!-- 3. SUMMARY CARDS -->
 <section class="section" id="mer-info">
   <div class="section-inner">
     <div class="section-header">
-      <div class="section-label">Mer informasjon</div>
-      <h2>Alt du trenger å vite</h2>
+      <div class="section-label lang-no">Mer informasjon</div>
+      <div class="section-label lang-en">More information</div>
+      <h2 class="lang-no">Alt du trenger å vite</h2>
+      <h2 class="lang-en">Everything you need to know</h2>
     </div>
     <div class="summary-grid">
-
       <div class="summary-card">
         <div class="summary-card-icon">📋</div>
-        <h3>Bruk av eFORSK</h3>
-        <p>
-          Informasjon om avtale om bruk, DBA, support og brukerstøtte, kreditering ved publisering og finansiering av prosjekter.
-        </p>
-        <a href="{{ '/bruk' | relative_url }}" class="btn btn-teal">Les mer →</a>
+        <h3 class="lang-no">Bruk av eFORSK</h3>
+        <h3 class="lang-en">Using eFORSK</h3>
+        <p class="lang-no">Informasjon om avtale om bruk, DBA, support og brukerstøtte, kreditering ved publisering og finansiering av prosjekter.</p>
+        <p class="lang-en">Information on usage agreements, DBA, support, publication credits, and project funding.</p>
+        <a href="{{ '/bruk' | relative_url }}" class="btn btn-teal">
+          <span class="lang-no">Les mer →</span><span class="lang-en">Read more →</span>
+        </a>
       </div>
-
       <div class="summary-card">
         <div class="summary-card-icon">🏗️</div>
-        <h3>Teknisk løsning</h3>
-        <p>
-          Arkitektur, sikkerhet, autentisering, kryptering, pseudonymisering, logging, innsyn og integrasjoner med ePROM og Persontjenesten.
-        </p>
-        <a href="{{ '/teknisk' | relative_url }}" class="btn btn-blue">Les mer →</a>
+        <h3 class="lang-no">Teknisk løsning</h3>
+        <h3 class="lang-en">Technical solution</h3>
+        <p class="lang-no">Arkitektur, sikkerhet, autentisering, kryptering, pseudonymisering, logging, innsyn og integrasjoner med ePROM og Persontjenesten.</p>
+        <p class="lang-en">Architecture, security, authentication, encryption, pseudonymization, logging, access rights, and integrations with ePROM and the Person Registry.</p>
+        <a href="{{ '/teknisk' | relative_url }}" class="btn btn-blue">
+          <span class="lang-no">Les mer →</span><span class="lang-en">Read more →</span>
+        </a>
       </div>
-
       <div class="summary-card">
         <div class="summary-card-icon">📖</div>
-        <h3>Brukermanual</h3>
-        <p>
-          eFORSK er selvbetjent og enkel i bruk. Brukermanualen inneholder detaljert veiledning for alle funksjoner og arbeidsflyter.
-        </p>
-        <a href="https://eforskbrukermanual.azurewebsites.net/" class="btn btn-primary" target="_blank" rel="noopener">Åpne manualen ↗</a>
+        <h3 class="lang-no">Brukermanual</h3>
+        <h3 class="lang-en">User manual</h3>
+        <p class="lang-no">eFORSK er selvbetjent og enkel i bruk. Brukermanualen inneholder detaljert veiledning for alle funksjoner og arbeidsflyter.</p>
+        <p class="lang-en">eFORSK is self-service and easy to use. The user manual contains detailed guidance for all features and workflows.</p>
+        <a href="https://eforskbrukermanual.azurewebsites.net/" class="btn btn-primary" target="_blank" rel="noopener">
+          <span class="lang-no">Åpne manualen ↗</span><span class="lang-en">Open manual ↗</span>
+        </a>
       </div>
-
     </div>
   </div>
 </section>
@@ -228,16 +265,29 @@ hide_page_hero: true
 <section class="section section-alt" id="nyheter">
   <div class="section-inner">
     <div class="section-header">
-      <div class="section-label">{{ t.seksjoner.nyheter.etikett }}</div>
-      <h2>{{ t.seksjoner.nyheter.tittel }}</h2>
+      <div class="section-label lang-no">{{ t.seksjoner.nyheter.etikett }}</div>
+      <div class="section-label lang-en">{{ t_en.seksjoner.nyheter.etikett }}</div>
+      <h2 class="lang-no">{{ t.seksjoner.nyheter.tittel }}</h2>
+      <h2 class="lang-en">{{ t_en.seksjoner.nyheter.tittel }}</h2>
     </div>
-    {% for nyhet in site.data.news %}
-    <div class="news-card">
-      <h3>{{ nyhet.tittel }}</h3>
-      <p>{{ nyhet.tekst }}</p>
-      <a href="{{ nyhet.lenke_url }}" class="news-link" target="_blank" rel="noopener">{{ nyhet.lenke_tekst }}</a>
+    <div class="lang-no">
+      {% for nyhet in site.data.news %}
+      <div class="news-card">
+        <h3>{{ nyhet.tittel }}</h3>
+        <p>{{ nyhet.tekst }}</p>
+        <a href="{{ nyhet.lenke_url }}" class="news-link" target="_blank" rel="noopener">{{ nyhet.lenke_tekst }}</a>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
+    <div class="lang-en">
+      {% for nyhet in news_en %}
+      <div class="news-card">
+        <h3>{{ nyhet.tittel }}</h3>
+        <p>{{ nyhet.tekst }}</p>
+        <a href="{{ nyhet.lenke_url }}" class="news-link" target="_blank" rel="noopener">{{ nyhet.lenke_tekst }}</a>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
@@ -245,26 +295,43 @@ hide_page_hero: true
 <section class="section" id="om-oss-teaser">
   <div class="section-inner">
     <div class="section-header">
-      <div class="section-label">Om oss</div>
-      <h2>Om Hemit og eFORSK</h2>
+      <div class="section-label lang-no">Om oss</div>
+      <div class="section-label lang-en">About us</div>
+      <h2 class="lang-no">Om Hemit og eFORSK</h2>
+      <h2 class="lang-en">About Hemit and eFORSK</h2>
     </div>
     <div class="strategi-box" style="text-align:center;">
-      <p style="max-width:640px; margin:0 auto 24px; color:#374151; font-size:1rem; line-height:1.8;">
+      <p class="lang-no" style="max-width:640px; margin:0 auto 24px; color:#374151; font-size:1rem; line-height:1.8;">
         eFORSK-løsningen utvikles og forvaltes av Hemit. Det driftes av Norsk Helsenett.
         eFORSK er en del av Helse Midt-Norges overordnede strategi for IKT-støtte til forskning.
         Les mer om bakgrunn, strategi og de forskjellige partene her.
       </p>
-      <a href="{{ '/om-oss' | relative_url }}" class="btn btn-blue">Om oss →</a>
+      <p class="lang-en" style="max-width:640px; margin:0 auto 24px; color:#374151; font-size:1rem; line-height:1.8;">
+        eFORSK is developed and maintained by Hemit, and operated by Norsk Helsenett.
+        eFORSK is part of Central Norway Regional Health Authority's overarching strategy for IT support of research.
+        Learn more about the background, strategy and the different parties here.
+      </p>
+      <a href="{{ '/om-oss' | relative_url }}" class="btn btn-blue">
+        <span class="lang-no">Om oss →</span><span class="lang-en">About us →</span>
+      </a>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
 <section class="cta-strip">
-  <h2>{{ t.cta.tittel }}</h2>
-  <p>{{ t.cta.ingress }}</p>
+  <h2 class="lang-no">{{ t.cta.tittel }}</h2>
+  <h2 class="lang-en">{{ t_en.cta.tittel }}</h2>
+  <p class="lang-no">{{ t.cta.ingress }}</p>
+  <p class="lang-en">{{ t_en.cta.ingress }}</p>
   <div class="cta-actions">
-    <a href="mailto:eforsk@stolav.no" class="btn btn-primary">{{ t.cta.knapp_kontakt }}</a>
-    <a href="https://eforskbrukermanual.azurewebsites.net/" class="btn btn-outline" target="_blank" rel="noopener">{{ t.cta.knapp_manual }}</a>
+    <a href="mailto:eforsk@stolav.no" class="btn btn-primary">
+      <span class="lang-no">{{ t.cta.knapp_kontakt }}</span>
+      <span class="lang-en">{{ t_en.cta.knapp_kontakt }}</span>
+    </a>
+    <a href="https://eforskbrukermanual.azurewebsites.net/" class="btn btn-outline" target="_blank" rel="noopener">
+      <span class="lang-no">{{ t.cta.knapp_manual }}</span>
+      <span class="lang-en">{{ t_en.cta.knapp_manual }}</span>
+    </a>
   </div>
 </section>
