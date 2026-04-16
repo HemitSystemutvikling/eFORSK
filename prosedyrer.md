@@ -1,3 +1,17 @@
+---
+layout: default
+title: Prosedyrer
+description: Interne prosedyrer for drift og administrasjon av eFORSK
+---
+
+> **⚠️ INTERN DOKUMENTASJON — IKKE PUBLISERT PÅ NETTSIDEN**
+>
+> Denne filen vises ikke som en side på eforsk.hemit.org. Den er beholdt her for historisk referanse
+> og intern bruk. Vil du oppdatere prosedyrene, gjør det gjerne her, men vær oppmerksom på
+> at innholdet ikke er synlig for besøkende på nettsiden.
+
+---
+
 # Prosedyrer
 
 Roller omtalt her:

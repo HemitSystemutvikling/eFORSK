@@ -1,0 +1,54 @@
+﻿---
+layout: default
+---
+<style>
+  .om-body { max-width: 780px; margin: 0 auto; padding: 48px 24px 80px; }
+  .om-body h2 {
+    font-size: 1.5rem; font-weight: 700; color: #0d2b4e;
+    margin-top: 2.5rem; margin-bottom: 0.75rem;
+    padding-bottom: 10px; border-bottom: 2px solid #dee2ea;
+  }
+  .om-body h2:first-child { margin-top: 0; }
+  .om-body h3 { font-size: 1.05rem; font-weight: 600; color: #1a5fa8; margin: 1.5rem 0 0.5rem; }
+  .om-body p { color: #374151; line-height: 1.85; margin-bottom: 1rem; font-size: 0.97rem; }
+  .om-body a { color: #1a5fa8; }
+  .om-back {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: #1a5fa8; font-size: 14px; font-weight: 600;
+    text-decoration: none; margin-bottom: 32px;
+  }
+  .om-back:hover { text-decoration: underline; }
+  .info-tag {
+    display: inline-block; background: #e8f1fb; color: #1a5fa8;
+    font-size: 12px; font-weight: 700; padding: 3px 10px;
+    border-radius: 4px; letter-spacing: 0.05em; text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .section-divider { border: none; border-top: 1px solid #dee2ea; margin: 2.5rem 0; }
+  .toc {
+    background: #f4f6f9; border: 1px solid #dee2ea; border-radius: 10px;
+    padding: 20px 24px; margin-bottom: 40px;
+  }
+  .toc-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #1a5fa8; margin-bottom: 12px; }
+  .toc-list { margin: 0; padding-left: 20px; }
+  .toc-list li { margin-bottom: 6px; }
+  .toc-list a { color: #1a5fa8; font-size: 0.95rem; font-weight: 500; text-decoration: none; }
+  .toc-list a:hover { text-decoration: underline; }
+  .org-card {
+    background: #f4f6f9; border: 1px solid #dee2ea; border-radius: 12px;
+    padding: 28px 32px; margin-top: 16px;
+  }
+  .org-card p { font-size: 0.97rem; color: #374151; line-height: 1.85; margin-bottom: 12px; }
+  .org-card p:last-of-type { margin-bottom: 20px; }
+  .btn-org {
+    display: inline-block; background: #1a5fa8; color: white !important;
+    padding: 9px 20px; border-radius: 7px; font-size: 14px; font-weight: 600;
+    text-decoration: none !important; transition: opacity 0.15s;
+  }
+  .btn-org:hover { opacity: 0.85; }
+</style>
+<div class="om-body">
+  <a href="{{ '/' | relative_url }}" class="om-back">← Tilbake til forsiden</a>
+  <div class="info-tag">Om oss</div>
+  {{ content }}
+</div>

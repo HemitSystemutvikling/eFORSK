@@ -1,0 +1,48 @@
+﻿---
+layout: default
+---
+<style>
+  .tech-body { max-width: 780px; margin: 0 auto; padding: 48px 24px 80px; }
+  .tech-body h2 {
+    font-size: 1.5rem; font-weight: 700; color: #0d2b4e;
+    margin-top: 2.5rem; margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem; border-bottom: 2px solid #dee2ea;
+  }
+  .tech-body h2:first-child { margin-top: 0; }
+  .tech-body h3 { font-size: 1.1rem; font-weight: 600; color: #1a5fa8; margin: 1.5rem 0 0.5rem; }
+  .tech-body p { color: #374151; line-height: 1.85; margin-bottom: 1rem; font-size: 0.97rem; }
+  .tech-body ul { margin: 0.5rem 0 1rem 1.5rem; }
+  .tech-body li { color: #374151; line-height: 1.8; margin-bottom: 0.3rem; font-size: 0.97rem; }
+  .tech-body strong { color: #0d2b4e; }
+  .tech-body a { color: #1a5fa8; }
+  .tech-back {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: #1a5fa8; font-size: 14px; font-weight: 600;
+    text-decoration: none; margin-bottom: 32px;
+  }
+  .tech-back:hover { text-decoration: underline; }
+  .info-tag {
+    display: inline-block; background: #e8f1fb; color: #1a5fa8;
+    font-size: 12px; font-weight: 700; padding: 3px 10px;
+    border-radius: 4px; letter-spacing: 0.05em; text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .toc {
+    background: #f4f6f9; border: 1px solid #dee2ea; border-radius: 10px;
+    padding: 20px 24px; margin-bottom: 40px;
+  }
+  .toc-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #1a5fa8; margin-bottom: 12px; }
+  .toc-list { margin: 0; padding-left: 20px; }
+  .toc-list li { margin-bottom: 6px; }
+  .toc-list a { color: #1a5fa8; font-size: 0.95rem; font-weight: 500; text-decoration: none; }
+  .toc-list a:hover { text-decoration: underline; }
+  .toc-sub { margin-top: 4px; margin-bottom: 0; }
+  .toc-sub li { margin-bottom: 3px; }
+  .toc-sub a { font-size: 0.88rem; color: #5a6474; font-weight: 400; }
+  .section-divider { border: none; border-top: 1px solid #dee2ea; margin: 2.5rem 0; }
+</style>
+<div class="tech-body">
+  <a href="{{ '/' | relative_url }}" class="tech-back">← Tilbake til forsiden</a>
+  <div class="info-tag">Teknisk dokumentasjon</div>
+  {{ content }}
+</div>

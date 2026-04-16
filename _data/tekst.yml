@@ -1,0 +1,46 @@
+# ============================================================
+# HOVEDTEKSTER - rediger her for å oppdatere nettsiden
+# ============================================================
+
+hero:
+  badge: "Helse Midt-Norge — Hemit"
+  tittel: "Datainnsamling for klinisk forskning"
+  tittel_uthevet: "klinisk forskning"
+  ingress: >
+    eFORSK er en plattformuavhengig IKT-løsning som gjør det enkelt og sikkert
+    å samle inn data fra studiedeltakere. Med støtte for digitale og fysiske
+    skjemaer, elektroniske samtykker og randomisering — alt i én løsning.
+  knapp_manual: "Les brukermanualen ↗"
+  knapp_funksjoner: "Se funksjoner"
+
+seksjoner:
+  funksjoner:
+    etikett: "Funksjoner"
+    tittel: "Alt du trenger for forskningsprosjektet"
+    ingress: >
+      eFORSK er bygget for å dekke behovene til kliniske forskere i Helse Midt-Norge
+      — fra samtykke til dataeksport.
+
+  screenshots:
+    etikett: "Løsningen"
+    tittel: "Se eFORSK i praksis"
+    ingress: "Oversikt over arkitektur og integrasjoner i eFORSK-plattformen."
+
+  hvorfor:
+    etikett: "Hvorfor eFORSK"
+    tittel: "Bygget for forskning i helsesektoren"
+
+  nyheter:
+    etikett: "Nyheter"
+    tittel: "Siste oppdateringer"
+
+  teknisk:
+    etikett: "Teknisk løsning"
+    tittel: "Arkitektur og sikkerhet"
+    ingress: "eFORSK er bygget på MRS-plattformen og driftes av Norsk Helsenett (NHN)."
+
+cta:
+  tittel: "Klar til å komme i gang?"
+  ingress: "Ta kontakt med Forskningsavdelingen ved St. Olavs Hospital for å opprette din database i eFORSK."
+  knapp_kontakt: "Kontakt oss"
+  knapp_manual: "Brukermanual ↗"
