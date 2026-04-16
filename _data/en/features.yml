@@ -1,0 +1,51 @@
+﻿# ============================================================
+# FEATURE CARDS (English)
+# ============================================================
+
+- ikon: "📋"
+  tittel: "Efficient data collection"
+  tekst: >
+    Digital and physical forms via Helsenorge, Digipost and postal mail.
+    Information is distributed efficiently and securely in line with risk assessments.
+
+- ikon: "✅"
+  tittel: "Digital consent"
+  tekst: >
+    Collect consent from study participants through digital consent procedures,
+    in compliance with privacy regulations and ethical principles.
+
+- ikon: "🔬"
+  tittel: "Monitoring (SDV)"
+  tekst: >
+    Enable source data verification (SDV) on selected fields in line with GCP requirements.
+    Dedicated monitoring overview with search and filter capabilities.
+
+- ikon: "💬"
+  tittel: "Comments (Queries)"
+  tekst: >
+    Handle incomplete, inconsistent or unclear data entries with the
+    integrated queries/comments functionality.
+
+- ikon: "📜"
+  tittel: "Audit trail"
+  tekst: >
+    Full overview of who performed which activities — registration,
+    modification, deletion and verification — and when.
+
+- ikon: "🎲"
+  tittel: "Randomization"
+  tekst: >
+    Set up randomization of study participants in collaboration with super users.
+    Randomization results cannot be manipulated by users.
+
+- ikon: "👨‍👩‍👧"
+  tittel: "On behalf of functionality"
+  tekst: >
+    Communicate directly with relatives of a research subject, simplifying
+    the communication loop for relevant study participants.
+
+- ikon: "📤"
+  tittel: "Data export"
+  tekst: >
+    Export collected study data in various formats for follow-up studies
+    or long-term storage after study completion.

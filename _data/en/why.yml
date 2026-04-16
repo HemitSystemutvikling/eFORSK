@@ -1,0 +1,27 @@
+﻿# ============================================================
+# WHY CHOOSE EFORSK (English)
+# ============================================================
+
+- ikon: "🧭"
+  tittel: "User-friendly"
+  tekst: "Seamless interface with easy access to data on all devices."
+
+- ikon: "🔒"
+  tittel: "Security"
+  tekst: "Risk-assessed solution with encryption, HelseID and pseudonymization in line with GDPR and Normen."
+
+- ikon: "📄"
+  tittel: "Agreements in place"
+  tekst: "DBA signed with all health trusts in Central Norway and NTNU. Minimal administrative overhead."
+
+- ikon: "💰"
+  tittel: "Cost-effective"
+  tekst: "Funded by Helse Midt-Norge. No separate funding required for individual projects."
+
+- ikon: "📡"
+  tittel: "Platform-independent"
+  tekst: "Available on all devices. Real-time collaboration across geographic boundaries."
+
+- ikon: "📈"
+  tittel: "Scalable"
+  tekst: "Suited for both small and large research projects, including multi-centre studies."

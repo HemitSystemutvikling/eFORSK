@@ -1,0 +1,13 @@
+﻿# ============================================================
+# NEWS (English)
+# ============================================================
+
+- tittel: "eFORSK v12.1.1 released April 2026"
+  tekst: >
+    The latest production release is v12.1.1 (15 April 2026), containing technical bug fixes and updates.
+    The previous major functional upgrade, eFORSK v12, was released 27.01.2026 and included audit trail
+    functionality in line with GCP requirements.
+    The next version, v12.2, is under development and will introduce support for bulk sending of ePROM orders.
+    All upgrades are continuously documented in the changelog.
+  lenke_tekst: "View full changelog ↗"
+  lenke_url: "https://eforskbrukermanual.azurewebsites.net/#changelog"
