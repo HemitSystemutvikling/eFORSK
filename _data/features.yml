@@ -1,0 +1,52 @@
+# ============================================================
+# FUNKSJONSKORT - legg til, fjern eller rediger kort her
+# Hvert kort har: ikon, tittel, tekst
+# ============================================================
+
+- ikon: "📋"
+  tittel: "Effektiv datainnsamling"
+  tekst: >
+    Digitale og fysiske skjemaer via Helsenorge, Digipost og papirpost.
+    Informasjonen distribueres effektivt og sikkert i tråd med risikovurdering.
+
+- ikon: "✅"
+  tittel: "Digitale samtykker"
+  tekst: >
+    Innhent samtykke fra studiedeltakere gjennom digitale samtykkeprosedyrer,
+    i tråd med reglement for personvern og etiske prinsipper.
+
+- ikon: "🔬"
+  tittel: "Monitorering (SDV)"
+  tekst: >
+    Aktiver kildedataverifisering (SDV) på utvalgte felt i tråd med GCP-krav.
+    Egen monitoreringsoversikt med søke- og filtreringsmuligheter.
+
+- ikon: "💬"
+  tittel: "Kommentarer (Queries)"
+  tekst: >
+    Håndter mangelfull, inkonsistent eller uklar dataoppføring med den
+    integrerte queries/kommentarer-funksjonaliteten.
+
+- ikon: "📜"
+  tittel: "Revisjonslogg (Audit trail)"
+  tekst: >
+    Full oversikt over hvem som har gjort hvilke aktiviteter — registrering,
+    endring, sletting og verifisering — til hvilken tid.
+
+- ikon: "🎲"
+  tittel: "Randomisering"
+  tekst: >
+    Sett opp randomisering av studiedeltakere i samarbeid med superbrukere.
+    Randomiseringsresultater er ikke manipulerbare av brukere.
+
+- ikon: "👨‍👩‍👧"
+  tittel: "«På vegne av»-funksjon"
+  tekst: >
+    Kommuniser direkte med relasjoner av et forskningsobjekt, noe som
+    forenkler kommunikasjonssløyfa for aktuelle studiedeltakere.
+
+- ikon: "📤"
+  tittel: "Dataeksport"
+  tekst: >
+    Eksporter innsamlet studiedata i ulike formater for oppfølgingsstudier
+    eller langtidslagring etter studieslutt.

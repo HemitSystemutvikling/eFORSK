@@ -1,0 +1,18 @@
+# ============================================================
+# SKJERMBILDER / SCREENSHOTS
+# Legg til eller fjern bilder her.
+# Bildefiler legges i /images/ mappen i repoet.
+# Hvert bilde har: fil (filnavn i /images/), alt (beskrivelse), tekst (bildetekst)
+# ============================================================
+
+- fil: "skjemasystemet.jpg"
+  alt: "Skjemasystemet i eFORSK"
+  tekst: "Skjemasystemet"
+
+- fil: "eforsk-eprom.png"
+  alt: "eFORSK og ePROM integrasjon"
+  tekst: "eFORSK og ePROM-integrasjon"
+
+- fil: "apper-som-bruker-eforsk-nhn.png"
+  alt: "Apper som bruker eFORSK"
+  tekst: "Apper og integrasjoner"

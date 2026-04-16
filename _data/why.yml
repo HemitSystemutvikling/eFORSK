@@ -1,0 +1,28 @@
+# ============================================================
+# HVORFOR VELGE EFORSK - rediger eller legg til punkter her
+# Hvert punkt har: ikon, tittel, tekst
+# ============================================================
+
+- ikon: "🧭"
+  tittel: "Brukervennlig"
+  tekst: "Sømløst brukergrensesnitt med enkel tilgang til data på alle enheter."
+
+- ikon: "🔒"
+  tittel: "Sikkerhet"
+  tekst: "Risikovurdert løsning med kryptering, HelseID og pseudonymisering i tråd med GDPR og Normen."
+
+- ikon: "📄"
+  tittel: "Avtaler på plass"
+  tekst: "DBA inngått med alle helseforetak i Helse Midt-Norge og NTNU. Minimalt administrativt arbeid."
+
+- ikon: "💰"
+  tittel: "Kostnadseffektivt"
+  tekst: "Finansiert av Helse Midt-Norge. Ingen finansiering nødvendig for enkeltprosjekter."
+
+- ikon: "📡"
+  tittel: "Plattformuavhengig"
+  tekst: "Tilgjengelig på alle enheter. Samarbeid på tvers av geografiske avgrensninger i sanntid."
+
+- ikon: "📈"
+  tittel: "Skalerbart"
+  tekst: "Tilpasset både små og store forskningsprosjekter, inkludert multisenterstudier."

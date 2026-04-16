@@ -1,0 +1,82 @@
+﻿---
+layout: default
+---
+<style>
+  .bruk-body { max-width: 780px; margin: 0 auto; padding: 48px 24px 80px; }
+  .bruk-body h2 {
+    font-size: 1.5rem; font-weight: 700; color: #0d2b4e;
+    margin-top: 2.5rem; margin-bottom: 0.75rem;
+    padding-bottom: 10px; border-bottom: 2px solid #dee2ea;
+  }
+  .bruk-body h2:first-child { margin-top: 0; }
+  .bruk-body h3 { font-size: 1.05rem; font-weight: 600; color: #1a5fa8; margin: 1.5rem 0 0.5rem; }
+  .bruk-body p { color: #374151; line-height: 1.85; margin-bottom: 1rem; font-size: 0.97rem; }
+  .bruk-body a { color: #1a5fa8; }
+  .bruk-back {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: #1a5fa8; font-size: 14px; font-weight: 600;
+    text-decoration: none; margin-bottom: 32px;
+  }
+  .bruk-back:hover { text-decoration: underline; }
+  .info-tag {
+    display: inline-block; background: #e8f1fb; color: #1a5fa8;
+    font-size: 12px; font-weight: 700; padding: 3px 10px;
+    border-radius: 4px; letter-spacing: 0.05em; text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .quote-box {
+    background: #f0f7ff; border-left: 3px solid #1a5fa8;
+    padding: 14px 20px; border-radius: 0 8px 8px 0; margin: 12px 0;
+    font-size: 0.95rem; color: #0d2b4e; line-height: 1.75;
+  }
+  .info-box {
+    background: #f4f6f9; border-radius: 10px; padding: 20px 24px;
+    margin: 16px 0; border: 1px solid #dee2ea;
+  }
+  .info-box p { margin-bottom: 8px; font-size: 0.93rem; color: #374151; line-height: 1.7; }
+  .info-box p:last-child { margin-bottom: 0; }
+  .section-divider { border: none; border-top: 1px solid #dee2ea; margin: 2.5rem 0; }
+  .toc {
+    background: #f4f6f9; border: 1px solid #dee2ea; border-radius: 10px;
+    padding: 20px 24px; margin-bottom: 40px;
+  }
+  .toc-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #1a5fa8; margin-bottom: 12px; }
+  .toc-list { margin: 0; padding-left: 20px; }
+  .toc-list li { margin-bottom: 6px; }
+  .toc-list a { color: #1a5fa8; font-size: 0.95rem; font-weight: 500; text-decoration: none; }
+  .toc-list a:hover { text-decoration: underline; }
+  .komgang-box {
+    background: linear-gradient(135deg, #0d2b4e, #1a5fa8);
+    border-radius: 12px; padding: 28px 32px; margin-top: 28px; color: white;
+  }
+  .komgang-box h3 { font-size: 1.1rem; font-weight: 700; color: white; margin: 0 0 8px; }
+  .komgang-box p { color: rgba(255,255,255,0.88); margin-bottom: 16px; font-size: 0.95rem; line-height: 1.7; }
+  .komgang-box a {
+    display: inline-block; background: #12a891; color: white !important;
+    padding: 10px 22px; border-radius: 7px; font-size: 14px; font-weight: 600;
+    text-decoration: none !important; transition: opacity 0.15s;
+  }
+  .komgang-box a:hover { opacity: 0.88; }
+  .manual-feature-box {
+    background: white; border: 1px solid #dee2ea; border-radius: 12px;
+    padding: 28px 32px; margin-top: 16px; box-shadow: 0 2px 12px rgba(13,43,78,0.07);
+  }
+  .manual-features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px; }
+  .manual-feat { display: flex; gap: 12px; align-items: flex-start; }
+  .manual-feat-icon { font-size: 20px; flex-shrink: 0; }
+  .manual-feat h4 { font-size: 0.9rem; font-weight: 700; color: #0d2b4e; margin: 0 0 3px; }
+  .manual-feat p { font-size: 0.85rem; color: #5a6474; margin: 0; line-height: 1.5; }
+  .btn-manual {
+    display: inline-block; background: #1a5fa8; color: white !important;
+    padding: 9px 20px; border-radius: 7px; font-size: 14px; font-weight: 600;
+    text-decoration: none !important; transition: opacity 0.15s; margin-top: 20px;
+  }
+  .btn-manual:hover { opacity: 0.88; }
+  .btn-manual-teal { background: #0e8a7a; }
+  @media (max-width: 560px) { .manual-features { grid-template-columns: 1fr; } }
+</style>
+<div class="bruk-body">
+  <a href="{{ '/' | relative_url }}" class="bruk-back">← Tilbake til forsiden</a>
+  <div class="info-tag">Bruk av eFORSK</div>
+  {{ content }}
+</div>

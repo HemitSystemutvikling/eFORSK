@@ -1,0 +1,107 @@
+# ============================================================
+# OM EFORSK - rediger tekst for disse seksjonene her
+# ============================================================
+
+avtale:
+  tittel: "Avtale om bruk"
+  tekst: >
+    Databehandleravtaler (DBA) knyttet til overordnet avtale om IT-tjenester er allerede inngått
+    med alle helseforetak i Helse Midt-Norge samt NTNU. Dermed reduseres nødvendig administrativt
+    arbeid i forkant av datainnsamling, da det avtalemessige allerede er på plass.
+    Det eneste som må fylles ut av hver enkelt forskergruppe før man kan få tilgang til sin egen
+    database i eFORSK er et vedlegg til DBA. I tillegg til å være et juridisk dokument, kan forskere
+    velge oppsett og hvilke funksjonaliteter man ønsker å aktivere i sin database.
+    Vi anbefaler derfor å fylle ut vedlegg til DBA så nøyaktig som mulig.
+  tillegg: >
+    Alle prosjekter som opprettes i eFORSK må ha hjemmel for datainnsamling fra eksempelvis REK, PVO eller annet.
+
+brukermanual:
+  tittel: "Brukermanual"
+  tekst: >
+    eFORSK er selvbetjent og enkel i bruk, vi anbefaler likevel å gjøre seg kjent med brukermanualen.
+  lenke_tekst: "Åpne brukermanualen ↗"
+  lenke_url: "https://eforskbrukermanual.azurewebsites.net/"
+
+support:
+  tittel: "Support og brukerstøtte"
+  tekst: >
+    Forskningsavdelingen ved St Olavs Hospital ivaretar førstelinjesupport for brukere av eFORSK.
+    Ta kontakt på eforsk@stolav.no for å komme i gang eller ved spørsmål om bruk av tjenesten.
+    På nettsiden til Forskningsavdelingen ligger et utvalg brukermanualer som kan være nyttig
+    ved bygging av skjema, eksport av data ved studieslutt, osv.
+  tillegg_1: >
+    Dersom du har problemer med skjemaet ditt og tar kontakt med superbruker om dette, ber vi om at du
+    legger ved skjemadefinisjon til henvendelsen. Denne finner du under
+    Administrasjon → Skjematyper → Eksporter skjemadefinisjon.
+  tillegg_2: >
+    Dersom du har problemer med feilede bestillinger trenger vi eksportfil eller ePromGuid,
+    som du finner under «ePROM bestillinger» (Velg Bruk disse → Eksporter data).
+  epost: "eforsk@stolav.no"
+  stolav_lenke: "https://www.stolav.no/avdelinger/sentral-stab/fagavdelingen/forskningsavdelingen/datahandtering/#eforsk"
+  stolav_lenke_tekst: "nettsiden til Forskningsavdelingen"
+
+kreditering:
+  tittel: "Publisering av resultater oppnådd ved bruk av eFORSK"
+  undertittel: "Kreditering ved publisering"
+  ingress: >
+    For å sikre korrekt kreditering ved publisering av forskningsresultater oppnådd ved bruk av eFORSK,
+    ber vi om at følgende formulering benyttes i metodekapitlet i publikasjonen:
+  norsk: >
+    «Datainnsamling (og randomisering, dersom relevant) ble gjennomført ved hjelp av eFORSK,
+    en web-basert applikasjon utviklet og administrert av Hemit HF.»
+  engelsk: >
+    «Data collection (and randomization if relevant) was performed using eFORSK, a web-based application
+    developed and maintained by Central Norway Regional Health Authority's IT department, Hemit HF.»
+
+finansiering:
+  tittel: "Finansiering"
+  tekst: >
+    eFORSK blir finansiert gjennom tjenestebudsjettet til Helse Midt-Norge og det er derfor ikke behov
+    for finansiering av de enkelte interne forskningsprosjektene som har databaser i eFORSK.
+    Det som imidlertid kan bli kostnadselementer, og som blir fakturert brukere av eFORSK, er
+    distribuering av skjema og brev i papirformat (krever eget oppsett), samt bruk av eSignering.
+    Videre kan det medføre kostnader for prosjektet dersom studiedeltaker som mottar skjema eller brev
+    benytter sikker digital postkasse og ikke er aktiv i Helsenorge.
+    På grunn av dette krever vi faktureringsinformasjon ved opprettelse av samtlige nye databaser i eFORSK.
+  esignering_lenke: "https://samarbeid.digdir.no/esignering/kostnadsmodell-esignering/103"
+  postkasse_lenke: "https://samarbeid.digdir.no/digital-postkasse/kostnadsmodell-digital-postkasse/106"
+
+strategi:
+  tittel: "Strategi og videreutvikling"
+  tekst: >
+    eFORSK er en del av Helse Midt-Norges overordnede strategi for IKT-støtte til forskning, og har
+    sammen med andre strategiske tiltak som målsetning å skape en datadrevet kultur som sikrer ressurs-
+    og kostnadseffektive beslutningsgrunnlag for drift og utvikling av helsetjenesten. I tråd med den
+    besluttede strategien, er videreutviklingen av eFORSK sterkt forankret i de behovene og
+    prioriteringene som er definert i IKT-styringsstrukturen i Helse Midt-Norge. Dette innebærer at
+    eFORSK på en smidig måte tilpasses for å møte både forskernes behov for effektive verktøy samt
+    forskningsinstitusjonenes målsetninger. Utviklingsarbeidet har alltid fokus på de strenge kravene
+    til datasikkerhet, personvern og forskningsetikk. Samlet gir dette en helhetlig tilnærming hvor
+    både teknologiske løsninger og forskningskrav blir ivaretatt på en målrettet måte og eFORSK jobbes
+    kontinuerlig med for at det skal være en fremtidsrettet plattform som kan bidra til en mer effektiv
+    og sikker datainnsamling i klinisk forskning.
+  tillegg: >
+    Alle nye oppgraderinger blir nøye validert, testet og dokumentert før produksjonssetting.
+    Dette gjennomføres av egen testleder i Hemit Systemutvikling, som benytter flere sett med testdata
+    for å validere at den endrede koden fungerer og at arbeidsflyten er i tråd med forventningene.
+  endringslogg_lenke: "https://eforskbrukermanual.azurewebsites.net/#changelog"
+
+hemit:
+  tittel: "Hemit"
+  tekst: >
+    Hemit HF er et helseforetak som leverer fremtidsrettede teknologiske løsninger og tjenester
+    til sykehusene i Midt-Norge med mål om bedre pasientbehandling, bedre pasientopplevelse og
+    bedre ledelseskvalitet. Hemit er tjenesteleverandør og bindeledd til alle sykehus og helseforetak
+    i Helse Midt-Norge innen teknologi og IKT-tjenester, og betjener 22 000 av Norges viktigste
+    IKT-brukere 24 timer i døgnet, sju dager i uka.
+  lenke_url: "https://www.hemit.no/om-oss-hemit/"
+  lenke_tekst: "Les mer om Hemit ↗"
+
+nhn:
+  tittel: "Norsk Helsenett"
+  tekst: >
+    eFORSK driftes på infrastrukturen til Norsk Helsenett (NHN), som er den nasjonale
+    IKT-infrastrukturløsningen for helse- og omsorgssektoren i Norge.
+    NHN sørger for sikker og pålitelig drift av løsninger som eFORSK.
+  lenke_url: "https://www.nhn.no/om-oss"
+  lenke_tekst: "Les mer om Norsk Helsenett ↗"

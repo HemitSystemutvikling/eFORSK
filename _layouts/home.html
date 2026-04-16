@@ -1,0 +1,270 @@
+﻿---
+layout: default
+hide_page_hero: true
+---
+<!--
+  LAYOUT-FIL - ikke rediger tekst her.
+  All tekst og innhold redigeres i _data/ mappen:
+    _data/tekst.yml      - overskrifter og hero-tekst
+    _data/features.yml   - funksjonskort
+    _data/news.yml       - nyheter
+    _data/why.yml        - "Hvorfor eFORSK"-punkter
+    _data/teknisk.yml    - tekniske kort
+    _data/om.yml         - Avtale, Support, Kreditering, Finansiering, Strategi
+-->
+{% assign t = site.data.tekst %}
+{% assign om = site.data.om %}
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #0d2b4e 0%, #1a5fa8 60%, #0e8a7a 100%);
+    color: white; padding: 80px 24px 72px; text-align: center;
+  }
+  .hero-inner { max-width: 760px; margin: 0 auto; }
+  .hero-badge {
+    display: inline-block; background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3); color: rgba(255,255,255,0.9);
+    font-size: 13px; font-weight: 600; letter-spacing: 0.05em;
+    padding: 5px 14px; border-radius: 20px; margin-bottom: 24px; text-transform: uppercase;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem); font-weight: 700;
+    line-height: 1.2; margin-bottom: 20px; letter-spacing: -0.5px;
+  }
+  .hero h1 br + span { font-size: 0.7em; opacity: 0.88; font-weight: 500; }
+  .hero-lead {
+    font-size: 1.1rem; line-height: 1.75; opacity: 0.88;
+    max-width: 620px; margin: 0 auto 36px;
+  }
+  .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 13px 28px; border-radius: 8px;
+    font-size: 15px; font-weight: 600; text-decoration: none;
+    transition: opacity 0.15s, transform 0.1s;
+  }
+  .btn:hover { opacity: 0.88; transform: translateY(-1px); text-decoration: none; }
+  .btn-primary { background: #12a891; color: white; }
+  .btn-outline { background: rgba(255,255,255,0.12); color: white; border: 1.5px solid rgba(255,255,255,0.45); }
+  .btn-blue { background: #1a5fa8; color: white; }
+  .btn-teal { background: #0e8a7a; color: white; }
+
+  .section { padding: 64px 24px; }
+  .section-alt { background: #f4f6f9; }
+  .section-inner { max-width: 1080px; margin: 0 auto; }
+  .section-narrow { max-width: 780px; margin: 0 auto; }
+  .section-header { text-align: center; margin-bottom: 48px; }
+  .section-header h2 { font-size: 1.85rem; font-weight: 700; color: #0d2b4e; margin-bottom: 10px; }
+  .section-header p { color: #5a6474; font-size: 1.05rem; max-width: 560px; margin: 0 auto; }
+  .section-label {
+    font-size: 12px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: #1a5fa8; margin-bottom: 10px;
+  }
+
+  /* Feature cards */
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+  .card {
+    background: white; border-radius: 12px; padding: 28px;
+    box-shadow: 0 2px 12px rgba(13,43,78,0.08); border: 1px solid #dee2ea;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .card:hover { box-shadow: 0 6px 24px rgba(13,43,78,0.13); transform: translateY(-2px); }
+  .card-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+  .card h3 { font-size: 1.05rem; font-weight: 700; color: #0d2b4e; margin-bottom: 8px; }
+  .card p { font-size: 0.92rem; color: #5a6474; line-height: 1.65; }
+
+  /* Why grid */
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
+  .why-item { display: flex; gap: 14px; align-items: flex-start; }
+  .why-icon {
+    flex-shrink: 0; width: 40px; height: 40px; border-radius: 8px;
+    background: #e8f1fb; display: flex; align-items: center; justify-content: center; font-size: 18px;
+  }
+  .why-item h3 { font-size: 0.95rem; font-weight: 700; color: #0d2b4e; margin-bottom: 4px; }
+  .why-item p { font-size: 0.87rem; color: #5a6474; line-height: 1.55; }
+
+  /* News */
+  .news-card {
+    background: white; border-radius: 12px; padding: 28px 32px;
+    box-shadow: 0 2px 12px rgba(13,43,78,0.08); border-left: 4px solid #12a891;
+    max-width: 720px; margin: 0 auto 24px;
+  }
+  .news-card h3 { font-size: 1.1rem; font-weight: 700; color: #0d2b4e; margin-bottom: 10px; }
+  .news-card p { color: #5a6474; font-size: 0.95rem; line-height: 1.7; margin-bottom: 16px; }
+  .news-link { font-size: 14px; font-weight: 600; color: #1a5fa8; text-decoration: none; }
+  .news-link:hover { text-decoration: underline; }
+
+  /* Summary cards (bruk + teknisk + manual) */
+  .summary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+  .summary-card {
+    background: white; border-radius: 12px; padding: 32px;
+    box-shadow: 0 2px 12px rgba(13,43,78,0.08); border: 1px solid #dee2ea;
+    display: flex; flex-direction: column;
+  }
+  .summary-card-icon { font-size: 32px; margin-bottom: 16px; }
+  .summary-card h3 { font-size: 1.1rem; font-weight: 700; color: #0d2b4e; margin-bottom: 10px; }
+  .summary-card p { font-size: 0.92rem; color: #5a6474; line-height: 1.65; flex: 1; margin-bottom: 20px; }
+  .summary-card .btn { align-self: flex-start; padding: 10px 20px; font-size: 14px; }
+
+  /* Strategi tekst */
+  .strategi-box { max-width: 780px; margin: 0 auto; }
+  .strategi-box p { color: #374151; line-height: 1.85; margin-bottom: 1rem; font-size: 0.97rem; }
+  .strategi-box a { color: #1a5fa8; }
+
+  /* CTA strip */
+  .cta-strip {
+    background: linear-gradient(135deg, #0d2b4e, #1a5fa8);
+    color: white; padding: 60px 24px; text-align: center;
+  }
+  .cta-strip h2 { font-size: 1.7rem; font-weight: 700; margin-bottom: 10px; }
+  .cta-strip p { opacity: 0.85; margin-bottom: 28px; font-size: 1.05rem; }
+  .cta-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .cta-strip .btn-primary { background: #12a891; }
+  .cta-strip .btn-outline { border-color: rgba(255,255,255,0.5); }
+
+  .section-cta { text-align: center; margin-top: 36px; }
+
+  @media (max-width: 640px) {
+    .hero { padding: 56px 20px 48px; }
+    .section { padding: 48px 20px; }
+    .card-grid, .why-grid, .summary-grid { grid-template-columns: 1fr; }
+    .news-card { padding: 20px; }
+  }
+</style>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>eFORSK<br><span>Datainnsamling for klinisk forskning</span></h1>
+    <p class="hero-lead">{{ t.hero.ingress }}</p>
+    <div class="hero-actions">
+      <a href="#funksjoner" class="btn btn-primary">Se funksjoner</a>
+      <a href="{{ '/bruk' | relative_url }}" class="btn btn-outline">Bruk av eFORSK</a>
+    </div>
+  </div>
+</section>
+
+<!-- 1. HVORFOR EFORSK -->
+<section class="section" id="hvorfor">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">{{ t.seksjoner.hvorfor.etikett }}</div>
+      <h2>{{ t.seksjoner.hvorfor.tittel }}</h2>
+    </div>
+    <div class="why-grid">
+      {% for item in site.data.why %}
+      <div class="why-item">
+        <div class="why-icon">{{ item.ikon }}</div>
+        <div>
+          <h3>{{ item.tittel }}</h3>
+          <p>{{ item.tekst }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- 2. FUNKSJONER -->
+<section class="section section-alt" id="funksjoner">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">{{ t.seksjoner.funksjoner.etikett }}</div>
+      <h2>{{ t.seksjoner.funksjoner.tittel }}</h2>
+      <p>{{ t.seksjoner.funksjoner.ingress }}</p>
+    </div>
+    <div class="card-grid">
+      {% for feature in site.data.features %}
+      <div class="card">
+        <span class="card-icon">{{ feature.ikon }}</span>
+        <h3>{{ feature.tittel }}</h3>
+        <p>{{ feature.tekst }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- 3. SUMMARY CARDS: eFORSK i bruk + Teknisk + Brukermanual -->
+<section class="section" id="mer-info">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Mer informasjon</div>
+      <h2>Alt du trenger å vite</h2>
+    </div>
+    <div class="summary-grid">
+
+      <div class="summary-card">
+        <div class="summary-card-icon">📋</div>
+        <h3>Bruk av eFORSK</h3>
+        <p>
+          Informasjon om avtale om bruk, DBA, support og brukerstøtte, kreditering ved publisering og finansiering av prosjekter.
+        </p>
+        <a href="{{ '/bruk' | relative_url }}" class="btn btn-teal">Les mer →</a>
+      </div>
+
+      <div class="summary-card">
+        <div class="summary-card-icon">🏗️</div>
+        <h3>Teknisk løsning</h3>
+        <p>
+          Arkitektur, sikkerhet, autentisering, kryptering, pseudonymisering, logging, innsyn og integrasjoner med ePROM og Persontjenesten.
+        </p>
+        <a href="{{ '/teknisk' | relative_url }}" class="btn btn-blue">Les mer →</a>
+      </div>
+
+      <div class="summary-card">
+        <div class="summary-card-icon">📖</div>
+        <h3>Brukermanual</h3>
+        <p>
+          eFORSK er selvbetjent og enkel i bruk. Brukermanualen inneholder detaljert veiledning for alle funksjoner og arbeidsflyter.
+        </p>
+        <a href="https://eforskbrukermanual.azurewebsites.net/" class="btn btn-primary" target="_blank" rel="noopener">Åpne manualen ↗</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 4. NYHETER -->
+<section class="section section-alt" id="nyheter">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">{{ t.seksjoner.nyheter.etikett }}</div>
+      <h2>{{ t.seksjoner.nyheter.tittel }}</h2>
+    </div>
+    {% for nyhet in site.data.news %}
+    <div class="news-card">
+      <h3>{{ nyhet.tittel }}</h3>
+      <p>{{ nyhet.tekst }}</p>
+      <a href="{{ nyhet.lenke_url }}" class="news-link" target="_blank" rel="noopener">{{ nyhet.lenke_tekst }}</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- 5. OM OSS TEASER -->
+<section class="section" id="om-oss-teaser">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-label">Om oss</div>
+      <h2>Om Hemit og eFORSK</h2>
+    </div>
+    <div class="strategi-box" style="text-align:center;">
+      <p style="max-width:640px; margin:0 auto 24px; color:#374151; font-size:1rem; line-height:1.8;">
+        eFORSK-løsningen utvikles og forvaltes av Hemit. Det driftes av Norsk Helsenett.
+        eFORSK er en del av Helse Midt-Norges overordnede strategi for IKT-støtte til forskning.
+        Les mer om bakgrunn, strategi og de forskjellige partene her.
+      </p>
+      <a href="{{ '/om-oss' | relative_url }}" class="btn btn-blue">Om oss →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <h2>{{ t.cta.tittel }}</h2>
+  <p>{{ t.cta.ingress }}</p>
+  <div class="cta-actions">
+    <a href="mailto:eforsk@stolav.no" class="btn btn-primary">{{ t.cta.knapp_kontakt }}</a>
+    <a href="https://eforskbrukermanual.azurewebsites.net/" class="btn btn-outline" target="_blank" rel="noopener">{{ t.cta.knapp_manual }}</a>
+  </div>
+</section>

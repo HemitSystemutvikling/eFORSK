@@ -1,0 +1,28 @@
+# ============================================================
+# TEKNISK LØSNING - rediger kort eller legg til nye her
+# Hvert kort har: ikon, tittel, tekst
+# ============================================================
+
+- ikon: "🏗️"
+  tittel: "Trelagsarkitektur"
+  tekst: >
+    Web-lag, service-lag og database-lag. Hvert forskningsprosjekt har sin
+    egen isolerte database med egen krypteringsnøkkel.
+
+- ikon: "🔑"
+  tittel: "HelseID og FALK"
+  tekst: >
+    Claims-basert autentisering via FALK og HelseID. Alle brukertilganger er
+    personlige med rolle- og enhetsstyring.
+
+- ikon: "🔐"
+  tittel: "Kryptering og pseudonymisering"
+  tekst: >
+    Fødselsnummer lagres kryptert og separert fra øvrige data. AES128-kryptering
+    per register. Persondata lastes fra Persontjenesten ved behov.
+
+- ikon: "🔗"
+  tittel: "Integrasjoner"
+  tekst: >
+    Integrert med ePROM (Helsenorge, Digipost, papirpost), Persontjenesten
+    og folkeregisteret, og eSignering via Digdir.

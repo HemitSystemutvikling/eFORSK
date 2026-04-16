@@ -1,0 +1,13 @@
+# ============================================================
+# NYHETER - legg til nyeste øverst, fjern gamle ved behov
+# Hvert element har: tittel, tekst, lenke_tekst, lenke_url
+# ============================================================
+
+- tittel: "eFORSK v12.1.1 produksjonssatt april 2026"
+  tekst: >
+    Siste produksjonssatte versjon er v12.1.1 (15. april 2026), som inneholder tekniske feilrettinger og oppdateringer.
+    Forrige funksjonelle oppgradering, eFORSK v12, ble produksjonssatt 27.01.2026 og inneholdt audit trail-funksjonalitet i tråd med GCP-krav.
+    Neste versjon, v12.2, er under utvikling og vil blant annet gi støtte for masseutsending av ePROM-bestillinger.
+    Alle oppgraderinger dokumenteres løpende i endringsloggen.
+  lenke_tekst: "Se full endringslogg ↗"
+  lenke_url: "https://eforskbrukermanual.azurewebsites.net/#changelog"
